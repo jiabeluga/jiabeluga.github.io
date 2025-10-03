@@ -45,7 +45,7 @@
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(75, 212, 201); /* 颜色 */
+  color: #FFBF00FF; /* 颜色 */
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -81,30 +81,7 @@
 .progress {background:#eee; border-radius:10px; height:18px; overflow:hidden; margin:8px 0;}
 .progress-bar {background:#39c5bb; height:100%; color:#fff; font-size:12px; line-height:18px;}
 
-.divider {
-      display: flex;
-      align-items: center;
-      margin: 20px 0;
-      color: #888;
-      padding: 0;
-      justify-content: center;
-    }
-    .divider-side {
-      flex: 1;
-      min-width: 12px;
-      max-width: 8vw;
-    }
-    .divider-line {
-      flex: none;
-      width: 50%;
-      margin: 0 10px;
-      border-bottom: 2px dashed #bbb;
-      height: 0;
-      min-width: 0;
-    }
-    .divider .fa-scissors {
-      font-size: 1.15em;
-    }
+.divider {text-align:center; margin:20px 0; color:#888;}
 
 footer {text-align:center; padding:15px; color:#666; font-size:14px;}
 
@@ -128,14 +105,6 @@ footer {text-align:center; padding:15px; color:#666; font-size:14px;}
   z-index: -1;
 }
 
-.status-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 16px;
-      margin: 4px 0;
-      padding: 0 4px;
-    }
   </style>
 </head>
 <body>
@@ -168,27 +137,17 @@ footer {text-align:center; padding:15px; color:#666; font-size:14px;}
     <p><span class="highlight">· Roblox</span> usrname:bulega39 or GlitchZapTurbo_YT</p>
   </div>  <div class="section">
     <h3><i class="fa-solid fa-chart-line"></i> 站点信息</h3>
-    <div class="status-row"><span>运行状态</span><span>❌ 濒死</span></div>
-    <div class="status-row"><span>站长状态</span><span>❌ 濒死</span></div>
-    <div class="status-row"><span>服务运行状态</span><span>🟢 可能活着?</span></div>
-  </div>  <div class="divider">
-    <span class="divider-side"></span>
-    <i class="fa-solid fa-scissors"></i>
-    <span class="divider-line"></span>
-    <span class="divider-side"></span>
-  </div>  <div class="section">
+    <p>运行状态 ❌ 濒死</p>
+    <p>站长状态 ❌ 濒死</p>
+    <p>服务运行状态 🟢 可能活着?</p>
+  </div>  <div class="divider"><i class="fa-solid fa-scissors"></i> - - - - - - - - - -</div>  <div class="section">
     <h2 style="color:#39c5bb;">关于Beluga</h2>
     <p>" 我不好！这里不是Beluga！是目前不想上学的☝✌💧❄☜☼ "</p>
     <p>" 由于想法非常奇怪猎奇，所以说看到我说了发了任何奇奇怪怪的东西，绝对(不)是我干的( "</p>
     <p>" 喜欢的事数不清，最喜欢的就是审判![开终结眼] "</p>
     <p>" 目前可以属于某个组织 "</p>
     <p>" 骚扰请来QQ/Telegram/发邮件(这对吗) "</p>
-  </div>  <div class="divider">
-    <span class="divider-side"></span>
-    <i class="fa-solid fa-scissors"></i>
-    <span class="divider-line"></span>
-    <span class="divider-side"></span>
-  </div>  <div class="section">
+  </div>  <div class="divider"><i class="fa-solid fa-scissors"></i> - - - - - - - - - -</div>  <div class="section">
     <h2 style="color:#39c5bb;">我的技能</h2>
     <div>Termux 65%<div class="progress"><div class="progress-bar" style="width:65%">65%</div></div></div>
     <div>Linux idk%<div class="progress"><div class="progress-bar" style="width:30%">idk%</div></div></div>
@@ -259,7 +218,7 @@ footer {text-align:center; padding:15px; color:#666; font-size:14px;}
 
     // 背景音乐
     const music = document.getElementById("bg-music");
-    music.volume = 0.45;
+    music.volume = 0.35;
     music.play().catch(()=>{
       document.addEventListener("click", ()=>{ music.play(); }, {once:true});
     });
