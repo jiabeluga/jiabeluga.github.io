@@ -1,0 +1,6178 @@
+{
+ "name": "TIME",
+ "type": "personal_chat",
+ "id": 5096355586,
+ "messages": [
+  {
+   "id": 243121,
+   "type": "service",
+   "date": "2025-11-12T21:49:04",
+   "date_unixtime": "1762955344",
+   "actor": "TIME NEX",
+   "actor_id": "user5096355586",
+   "action": "set_messages_ttl",
+   "period": 86400,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243122,
+   "type": "message",
+   "date": "2025-11-12T21:49:04",
+   "date_unixtime": "1762955344",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243123,
+   "type": "message",
+   "date": "2025-11-12T21:49:04",
+   "date_unixtime": "1762955344",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": [
+    "你好呀",
+    {
+     "type": "custom_emoji",
+     "text": "🙂",
+     "document_id": "stickers/sticker.webp"
+    },
+    "\n如果有需要帮忙请直接提出来",
+    {
+     "type": "custom_emoji",
+     "text": "🎂",
+     "document_id": "stickers/sticker (1).webp"
+    },
+    "\n如果只是想聊天就卖个萌",
+    {
+     "type": "custom_emoji",
+     "text": "🎂",
+     "document_id": "stickers/sticker (2).webp"
+    },
+    "\n另外非熟人不要使用\"在吗\", 会掉好感的",
+    {
+     "type": "custom_emoji",
+     "text": "🛌",
+     "document_id": "stickers/sticker (3).webp"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你好呀"
+    },
+    {
+     "type": "custom_emoji",
+     "text": "🙂",
+     "document_id": "stickers/sticker.webp"
+    },
+    {
+     "type": "plain",
+     "text": "\n如果有需要帮忙请直接提出来"
+    },
+    {
+     "type": "custom_emoji",
+     "text": "🎂",
+     "document_id": "stickers/sticker (1).webp"
+    },
+    {
+     "type": "plain",
+     "text": "\n如果只是想聊天就卖个萌"
+    },
+    {
+     "type": "custom_emoji",
+     "text": "🎂",
+     "document_id": "stickers/sticker (2).webp"
+    },
+    {
+     "type": "plain",
+     "text": "\n另外非熟人不要使用\"在吗\", 会掉好感的"
+    },
+    {
+     "type": "custom_emoji",
+     "text": "🛌",
+     "document_id": "stickers/sticker (3).webp"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 243126,
+   "type": "message",
+   "date": "2025-11-12T21:49:06",
+   "date_unixtime": "1762955346",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那你请我吃",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你请我吃"
+    }
+   ]
+  },
+  {
+   "id": 243144,
+   "type": "message",
+   "date": "2025-11-12T21:50:54",
+   "date_unixtime": "1762955454",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "又不理我呜呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "又不理我呜呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243154,
+   "type": "message",
+   "date": "2025-11-12T21:52:03",
+   "date_unixtime": "1762955523",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (4).webp",
+   "file_name": "sticker.webp",
+   "file_size": 26758,
+   "thumbnail": "stickers/sticker.webp_thumb.jpg",
+   "thumbnail_file_size": 14990,
+   "media_type": "sticker",
+   "sticker_emoji": "👍",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243159,
+   "type": "message",
+   "date": "2025-11-12T21:52:23",
+   "date_unixtime": "1762955543",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "给我吃点嘛呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "给我吃点嘛呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243169,
+   "type": "message",
+   "date": "2025-11-12T21:53:11",
+   "date_unixtime": "1762955591",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (5).webp",
+   "file_name": "sticker.webp",
+   "file_size": 26698,
+   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+   "thumbnail_file_size": 15396,
+   "media_type": "sticker",
+   "sticker_emoji": "🫣",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 497,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243171,
+   "type": "message",
+   "date": "2025-11-12T21:53:13",
+   "date_unixtime": "1762955593",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "要什么喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "要什么喵"
+    }
+   ]
+  },
+  {
+   "id": 243185,
+   "type": "message",
+   "date": "2025-11-12T21:54:49",
+   "date_unixtime": "1762955689",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "猫吃面，猫吃面",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "猫吃面，猫吃面"
+    }
+   ]
+  },
+  {
+   "id": 243188,
+   "type": "message",
+   "date": "2025-11-12T21:55:31",
+   "date_unixtime": "1762955731",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (6).webp",
+   "file_name": "sticker.webp",
+   "file_size": 28340,
+   "thumbnail": "stickers/sticker (2).webp_thumb.jpg",
+   "thumbnail_file_size": 15972,
+   "media_type": "sticker",
+   "sticker_emoji": "💖",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243189,
+   "type": "message",
+   "date": "2025-11-12T21:55:36",
+   "date_unixtime": "1762955736",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "什么面喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "什么面喵"
+    }
+   ]
+  },
+  {
+   "id": 243256,
+   "type": "message",
+   "date": "2025-11-12T22:00:47",
+   "date_unixtime": "1762956047",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我想吃牛肉面",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我想吃牛肉面"
+    }
+   ]
+  },
+  {
+   "id": 243257,
+   "type": "message",
+   "date": "2025-11-12T22:00:48",
+   "date_unixtime": "1762956048",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243261,
+   "type": "message",
+   "date": "2025-11-12T22:01:24",
+   "date_unixtime": "1762956084",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (7).webp",
+   "file_name": "sticker.webp",
+   "file_size": 25160,
+   "thumbnail": "stickers/sticker (3).webp_thumb.jpg",
+   "thumbnail_file_size": 13896,
+   "media_type": "sticker",
+   "sticker_emoji": "😮‍💨",
+   "mime_type": "image/webp",
+   "width": 508,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243262,
+   "type": "message",
+   "date": "2025-11-12T22:01:30",
+   "date_unixtime": "1762956090",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "是真的饿嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "是真的饿嘛"
+    }
+   ]
+  },
+  {
+   "id": 243283,
+   "type": "message",
+   "date": "2025-11-12T22:04:00",
+   "date_unixtime": "1762956240",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "三天没吃东西了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "三天没吃东西了"
+    }
+   ]
+  },
+  {
+   "id": 243301,
+   "type": "message",
+   "date": "2025-11-12T22:06:14",
+   "date_unixtime": "1762956374",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那个..你有工作嘛 (3天..有点不信了)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那个..你有工作嘛 (3天..有点不信了)"
+    }
+   ]
+  },
+  {
+   "id": 243315,
+   "type": "message",
+   "date": "2025-11-12T22:08:59",
+   "date_unixtime": "1762956539",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (8).webp",
+   "file_name": "sticker.webp",
+   "file_size": 17770,
+   "thumbnail": "stickers/sticker (4).webp_thumb.jpg",
+   "thumbnail_file_size": 11018,
+   "media_type": "sticker",
+   "sticker_emoji": "😇",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243361,
+   "type": "message",
+   "date": "2025-11-12T22:14:31",
+   "date_unixtime": "1762956871",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 243301,
+   "text": "有",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有"
+    }
+   ]
+  },
+  {
+   "id": 243362,
+   "type": "message",
+   "date": "2025-11-12T22:14:39",
+   "date_unixtime": "1762956879",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我还有社保缴费的那啥",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我还有社保缴费的那啥"
+    }
+   ]
+  },
+  {
+   "id": 243364,
+   "type": "message",
+   "date": "2025-11-12T22:14:43",
+   "date_unixtime": "1762956883",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_1@12-11-2025_22-14-43.jpg",
+   "photo_file_size": 55132,
+   "width": 576,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243366,
+   "type": "message",
+   "date": "2025-11-12T22:14:46",
+   "date_unixtime": "1762956886",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就在前三天",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就在前三天"
+    }
+   ]
+  },
+  {
+   "id": 243367,
+   "type": "message",
+   "date": "2025-11-12T22:14:50",
+   "date_unixtime": "1762956890",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "本来说呢，一般26号才没钱，才讨饭的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "本来说呢，一般26号才没钱，才讨饭的"
+    }
+   ]
+  },
+  {
+   "id": 243368,
+   "type": "message",
+   "date": "2025-11-12T22:14:55",
+   "date_unixtime": "1762956895",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "但是扣了800就只能12号就没钱了呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但是扣了800就只能12号就没钱了呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243386,
+   "type": "message",
+   "date": "2025-11-12T22:16:15",
+   "date_unixtime": "1762956975",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (9).webp",
+   "file_name": "sticker.webp",
+   "file_size": 11884,
+   "thumbnail": "stickers/sticker (5).webp_thumb.jpg",
+   "thumbnail_file_size": 7796,
+   "media_type": "sticker",
+   "sticker_emoji": "🤯",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 459,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243388,
+   "type": "message",
+   "date": "2025-11-12T22:16:38",
+   "date_unixtime": "1762956998",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那很..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那很.."
+    }
+   ]
+  },
+  {
+   "id": 243389,
+   "type": "message",
+   "date": "2025-11-12T22:16:49",
+   "date_unixtime": "1762957009",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那个扣完社保还有多少",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那个扣完社保还有多少"
+    }
+   ]
+  },
+  {
+   "id": 243420,
+   "type": "message",
+   "date": "2025-11-12T22:19:22",
+   "date_unixtime": "1762957162",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "没钱了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没钱了"
+    }
+   ]
+  },
+  {
+   "id": 243421,
+   "type": "message",
+   "date": "2025-11-12T22:19:25",
+   "date_unixtime": "1762957165",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "9号扣完的只剩100多了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "9号扣完的只剩100多了"
+    }
+   ]
+  },
+  {
+   "id": 243422,
+   "type": "message",
+   "date": "2025-11-12T22:19:29",
+   "date_unixtime": "1762957169",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "三天吃了100块，没有了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "三天吃了100块，没有了"
+    }
+   ]
+  },
+  {
+   "id": 243424,
+   "type": "message",
+   "date": "2025-11-12T22:19:35",
+   "date_unixtime": "1762957175",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "每天只花30块在我们宁波，这已经很节省了....",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "每天只花30块在我们宁波，这已经很节省了...."
+    }
+   ]
+  },
+  {
+   "id": 243449,
+   "type": "message",
+   "date": "2025-11-12T22:21:52",
+   "date_unixtime": "1762957312",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜求求了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜求求了"
+    }
+   ]
+  },
+  {
+   "id": 243452,
+   "type": "message",
+   "date": "2025-11-12T22:21:57",
+   "date_unixtime": "1762957317",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "给点吃吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "给点吃吧"
+    }
+   ]
+  },
+  {
+   "id": 243476,
+   "type": "message",
+   "date": "2025-11-12T22:23:26",
+   "date_unixtime": "1762957406",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "问家里人要点..(?)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "问家里人要点..(?)"
+    }
+   ]
+  },
+  {
+   "id": 243478,
+   "type": "message",
+   "date": "2025-11-12T22:23:42",
+   "date_unixtime": "1762957422",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "我的流动资金也很少..只剩几十了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我的流动资金也很少..只剩几十了"
+    }
+   ]
+  },
+  {
+   "id": 243489,
+   "type": "message",
+   "date": "2025-11-12T22:24:59",
+   "date_unixtime": "1762957499",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243490,
+   "type": "message",
+   "date": "2025-11-12T22:25:02",
+   "date_unixtime": "1762957502",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "家里人不会给我钱的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "家里人不会给我钱的"
+    }
+   ]
+  },
+  {
+   "id": 243492,
+   "type": "message",
+   "date": "2025-11-12T22:25:12",
+   "date_unixtime": "1762957512",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "找我家里人要钱，我家里还反讽我",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "找我家里人要钱，我家里还反讽我"
+    }
+   ]
+  },
+  {
+   "id": 243511,
+   "type": "message",
+   "date": "2025-11-12T22:26:58",
+   "date_unixtime": "1762957618",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那应该可以..现在的国产软件应该都有借钱功能吧..至少暂时不会饿似",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那应该可以..现在的国产软件应该都有借钱功能吧..至少暂时不会饿似"
+    }
+   ]
+  },
+  {
+   "id": 243512,
+   "type": "message",
+   "date": "2025-11-12T22:27:08",
+   "date_unixtime": "1762957628",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "找我的话..我也没多少",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "找我的话..我也没多少"
+    }
+   ]
+  },
+  {
+   "id": 243555,
+   "type": "message",
+   "date": "2025-11-12T22:30:41",
+   "date_unixtime": "1762957841",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "借不到钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "借不到钱"
+    }
+   ]
+  },
+  {
+   "id": 243556,
+   "type": "message",
+   "date": "2025-11-12T22:30:49",
+   "date_unixtime": "1762957849",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "他们的接线服务一般都是有一个厂商提供的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他们的接线服务一般都是有一个厂商提供的"
+    }
+   ]
+  },
+  {
+   "id": 243557,
+   "type": "message",
+   "date": "2025-11-12T22:30:57",
+   "date_unixtime": "1762957857",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "国内大多数小众大众软件用的借钱都是用马上消费提供的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "国内大多数小众大众软件用的借钱都是用马上消费提供的"
+    }
+   ]
+  },
+  {
+   "id": 243559,
+   "type": "message",
+   "date": "2025-11-12T22:31:02",
+   "date_unixtime": "1762957862",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "只要一个那边不通过，大多数其他服务商提供的服务都不通过",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "只要一个那边不通过，大多数其他服务商提供的服务都不通过"
+    }
+   ]
+  },
+  {
+   "id": 243561,
+   "type": "message",
+   "date": "2025-11-12T22:31:10",
+   "date_unixtime": "1762957870",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (10).webp",
+   "file_name": "sticker.webp",
+   "file_size": 40428,
+   "thumbnail": "stickers/sticker (6).webp_thumb.jpg",
+   "thumbnail_file_size": 21832,
+   "media_type": "sticker",
+   "sticker_emoji": "😳",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 500,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243562,
+   "type": "message",
+   "date": "2025-11-12T22:31:14",
+   "date_unixtime": "1762957874",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那些大多数借钱服务都是马上消费提供的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那些大多数借钱服务都是马上消费提供的"
+    }
+   ]
+  },
+  {
+   "id": 243564,
+   "type": "message",
+   "date": "2025-11-12T22:31:19",
+   "date_unixtime": "1762957879",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "反正我试过一家不通过的，大多数全都不通过了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "反正我试过一家不通过的，大多数全都不通过了"
+    }
+   ]
+  },
+  {
+   "id": 243570,
+   "type": "message",
+   "date": "2025-11-12T22:32:06",
+   "date_unixtime": "1762957926",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那"
+    }
+   ]
+  },
+  {
+   "id": 243572,
+   "type": "message",
+   "date": "2025-11-12T22:32:13",
+   "date_unixtime": "1762957933",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你工作的地方不包吃吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你工作的地方不包吃吗"
+    }
+   ]
+  },
+  {
+   "id": 243587,
+   "type": "message",
+   "date": "2025-11-12T22:34:11",
+   "date_unixtime": "1762958051",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不包",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不包"
+    }
+   ]
+  },
+  {
+   "id": 243589,
+   "type": "message",
+   "date": "2025-11-12T22:34:14",
+   "date_unixtime": "1762958054",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "临时工",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "临时工"
+    }
+   ]
+  },
+  {
+   "id": 243590,
+   "type": "message",
+   "date": "2025-11-12T22:34:19",
+   "date_unixtime": "1762958059",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "饭也得自己买就是便宜一点罢了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "饭也得自己买就是便宜一点罢了"
+    }
+   ]
+  },
+  {
+   "id": 243593,
+   "type": "message",
+   "date": "2025-11-12T22:34:47",
+   "date_unixtime": "1762958087",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "额额..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "额额.."
+    }
+   ]
+  },
+  {
+   "id": 243600,
+   "type": "message",
+   "date": "2025-11-12T22:35:58",
+   "date_unixtime": "1762958158",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "话说没有线下朋友嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "话说没有线下朋友嘛"
+    }
+   ]
+  },
+  {
+   "id": 243602,
+   "type": "message",
+   "date": "2025-11-12T22:36:04",
+   "date_unixtime": "1762958164",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "去蹭一顿嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "去蹭一顿嘛"
+    }
+   ]
+  },
+  {
+   "id": 243607,
+   "type": "message",
+   "date": "2025-11-12T22:36:53",
+   "date_unixtime": "1762958213",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "没有。。。",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没有。。。"
+    }
+   ]
+  },
+  {
+   "id": 243608,
+   "type": "message",
+   "date": "2025-11-12T22:37:26",
+   "date_unixtime": "1762958246",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "实在不行的话",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "实在不行的话"
+    }
+   ]
+  },
+  {
+   "id": 243609,
+   "type": "message",
+   "date": "2025-11-12T22:37:34",
+   "date_unixtime": "1762958254",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "去超市食品店看看",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "去超市食品店看看"
+    }
+   ]
+  },
+  {
+   "id": 243610,
+   "type": "message",
+   "date": "2025-11-12T22:37:37",
+   "date_unixtime": "1762958257",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "免费试吃什么的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "免费试吃什么的"
+    }
+   ]
+  },
+  {
+   "id": 243612,
+   "type": "message",
+   "date": "2025-11-12T22:38:05",
+   "date_unixtime": "1762958285",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "实在不行偷偷吃一点东西(挑便宜的)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "实在不行偷偷吃一点东西(挑便宜的)"
+    }
+   ]
+  },
+  {
+   "id": 243624,
+   "type": "message",
+   "date": "2025-11-12T22:39:42",
+   "date_unixtime": "1762958382",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我们这里没有连锁超市",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我们这里没有连锁超市"
+    }
+   ]
+  },
+  {
+   "id": 243647,
+   "type": "message",
+   "date": "2025-11-12T22:42:58",
+   "date_unixtime": "1762958578",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那你吃一顿要多少()",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你吃一顿要多少()"
+    }
+   ]
+  },
+  {
+   "id": 243654,
+   "type": "message",
+   "date": "2025-11-12T22:43:21",
+   "date_unixtime": "1762958601",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "能给多少吃多少",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "能给多少吃多少"
+    }
+   ]
+  },
+  {
+   "id": 243659,
+   "type": "message",
+   "date": "2025-11-12T22:44:06",
+   "date_unixtime": "1762958646",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "指的是",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "指的是"
+    }
+   ]
+  },
+  {
+   "id": 243660,
+   "type": "message",
+   "date": "2025-11-12T22:44:13",
+   "date_unixtime": "1762958653",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你平常一顿吃多少",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你平常一顿吃多少"
+    }
+   ]
+  },
+  {
+   "id": 243667,
+   "type": "message",
+   "date": "2025-11-12T22:45:54",
+   "date_unixtime": "1762958754",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "平常不知道",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "平常不知道"
+    }
+   ]
+  },
+  {
+   "id": 243668,
+   "type": "message",
+   "date": "2025-11-12T22:45:58",
+   "date_unixtime": "1762958758",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "太晚了估计也只能去",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "太晚了估计也只能去"
+    }
+   ]
+  },
+  {
+   "id": 243671,
+   "type": "message",
+   "date": "2025-11-12T22:46:23",
+   "date_unixtime": "1762958783",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "qwq?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "qwq?"
+    }
+   ]
+  },
+  {
+   "id": 243673,
+   "type": "message",
+   "date": "2025-11-12T22:46:32",
+   "date_unixtime": "1762958792",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "只能去外面的饭店吃",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "只能去外面的饭店吃"
+    }
+   ]
+  },
+  {
+   "id": 243674,
+   "type": "message",
+   "date": "2025-11-12T22:46:37",
+   "date_unixtime": "1762958797",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "猫最高一顿吃过30多块钱（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "猫最高一顿吃过30多块钱（）"
+    }
+   ]
+  },
+  {
+   "id": 243709,
+   "type": "message",
+   "date": "2025-11-12T22:49:40",
+   "date_unixtime": "1762958980",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那..你想吃的要多少钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那..你想吃的要多少钱"
+    }
+   ]
+  },
+  {
+   "id": 243719,
+   "type": "message",
+   "date": "2025-11-12T22:50:10",
+   "date_unixtime": "1762959010",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有多少要多少喵我很贪婪喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有多少要多少喵我很贪婪喵"
+    }
+   ]
+  },
+  {
+   "id": 243722,
+   "type": "message",
+   "date": "2025-11-12T22:50:13",
+   "date_unixtime": "1762959013",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "（？）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "（？）"
+    }
+   ]
+  },
+  {
+   "id": 243742,
+   "type": "message",
+   "date": "2025-11-12T22:52:16",
+   "date_unixtime": "1762959136",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那..你现在在饭店嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那..你现在在饭店嘛"
+    }
+   ]
+  },
+  {
+   "id": 243743,
+   "type": "message",
+   "date": "2025-11-12T22:52:22",
+   "date_unixtime": "1762959142",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "还是在家",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "还是在家"
+    }
+   ]
+  },
+  {
+   "id": 243745,
+   "type": "message",
+   "date": "2025-11-12T22:52:26",
+   "date_unixtime": "1762959146",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "或者在外面",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "或者在外面"
+    }
+   ]
+  },
+  {
+   "id": 243778,
+   "type": "message",
+   "date": "2025-11-12T22:54:23",
+   "date_unixtime": "1762959263",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "在家里面呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "在家里面呜呜"
+    }
+   ]
+  },
+  {
+   "id": 243788,
+   "type": "message",
+   "date": "2025-11-12T22:56:11",
+   "date_unixtime": "1762959371",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那家里有能吃的嘛..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那家里有能吃的嘛.."
+    }
+   ]
+  },
+  {
+   "id": 243789,
+   "type": "message",
+   "date": "2025-11-12T22:56:15",
+   "date_unixtime": "1762959375",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "残羹冷炙",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "残羹冷炙"
+    }
+   ]
+  },
+  {
+   "id": 243790,
+   "type": "message",
+   "date": "2025-11-12T22:57:14",
+   "date_unixtime": "1762959434",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "没",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没"
+    }
+   ]
+  },
+  {
+   "id": 243791,
+   "type": "message",
+   "date": "2025-11-12T22:57:20",
+   "date_unixtime": "1762959440",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (10).webp",
+   "file_name": "sticker.webp",
+   "file_size": 40428,
+   "thumbnail": "stickers/sticker (6).webp_thumb.jpg",
+   "thumbnail_file_size": 21832,
+   "media_type": "sticker",
+   "sticker_emoji": "😳",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 500,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243792,
+   "type": "message",
+   "date": "2025-11-12T22:57:59",
+   "date_unixtime": "1762959479",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "喝水暂时骗骗肚子",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "喝水暂时骗骗肚子"
+    }
+   ]
+  },
+  {
+   "id": 243793,
+   "type": "message",
+   "date": "2025-11-12T22:58:04",
+   "date_unixtime": "1762959484",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "然后..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后.."
+    }
+   ]
+  },
+  {
+   "id": 243794,
+   "type": "message",
+   "date": "2025-11-12T22:58:10",
+   "date_unixtime": "1762959490",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "喝三天了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "喝三天了"
+    }
+   ]
+  },
+  {
+   "id": 243795,
+   "type": "message",
+   "date": "2025-11-12T22:59:18",
+   "date_unixtime": "1762959558",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那"
+    }
+   ]
+  },
+  {
+   "id": 243796,
+   "type": "message",
+   "date": "2025-11-12T22:59:29",
+   "date_unixtime": "1762959569",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "emm 临时工多久发一次工资",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "emm 临时工多久发一次工资"
+    }
+   ]
+  },
+  {
+   "id": 243797,
+   "type": "message",
+   "date": "2025-11-12T23:03:21",
+   "date_unixtime": "1762959801",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "14",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "14"
+    }
+   ]
+  },
+  {
+   "id": 243798,
+   "type": "message",
+   "date": "2025-11-12T23:08:19",
+   "date_unixtime": "1762960099",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "也就是..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "也就是.."
+    }
+   ]
+  },
+  {
+   "id": 243799,
+   "type": "message",
+   "date": "2025-11-12T23:08:26",
+   "date_unixtime": "1762960106",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "emm..你真的没朋友嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "emm..你真的没朋友嘛"
+    }
+   ]
+  },
+  {
+   "id": 243800,
+   "type": "message",
+   "date": "2025-11-12T23:12:30",
+   "date_unixtime": "1762960350",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "真的没有...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "真的没有..."
+    }
+   ]
+  },
+  {
+   "id": 243801,
+   "type": "message",
+   "date": "2025-11-12T23:14:29",
+   "date_unixtime": "1762960469",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那"
+    }
+   ]
+  },
+  {
+   "id": 243802,
+   "type": "message",
+   "date": "2025-11-12T23:14:36",
+   "date_unixtime": "1762960476",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "看看附近有没有麻辣烫卖",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "看看附近有没有麻辣烫卖"
+    }
+   ]
+  },
+  {
+   "id": 243803,
+   "type": "message",
+   "date": "2025-11-12T23:14:42",
+   "date_unixtime": "1762960482",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "连汤一起喝了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "连汤一起喝了"
+    }
+   ]
+  },
+  {
+   "id": 243804,
+   "type": "message",
+   "date": "2025-11-12T23:15:02",
+   "date_unixtime": "1762960502",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "应该不会特别贵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "应该不会特别贵"
+    }
+   ]
+  },
+  {
+   "id": 243805,
+   "type": "message",
+   "date": "2025-11-12T23:15:17",
+   "date_unixtime": "1762960517",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "可以给但不能给太多",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以给但不能给太多"
+    }
+   ]
+  },
+  {
+   "id": 243806,
+   "type": "message",
+   "date": "2025-11-12T23:19:11",
+   "date_unixtime": "1762960751",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "现在太晚了，都没有了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "现在太晚了，都没有了"
+    }
+   ]
+  },
+  {
+   "id": 243807,
+   "type": "message",
+   "date": "2025-11-12T23:20:01",
+   "date_unixtime": "1762960801",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (5).webp",
+   "file_name": "sticker.webp",
+   "file_size": 26698,
+   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+   "thumbnail_file_size": 15396,
+   "media_type": "sticker",
+   "sticker_emoji": "🫣",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 497,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 243808,
+   "type": "message",
+   "date": "2025-11-12T23:20:16",
+   "date_unixtime": "1762960816",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "要点外卖嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "要点外卖嘛"
+    }
+   ]
+  },
+  {
+   "id": 243809,
+   "type": "message",
+   "date": "2025-11-12T23:21:45",
+   "date_unixtime": "1762960905",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以喵"
+    }
+   ]
+  },
+  {
+   "id": 243815,
+   "type": "message",
+   "date": "2025-11-12T23:23:49",
+   "date_unixtime": "1762961029",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那想吃什么以及地址",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那想吃什么以及地址"
+    }
+   ]
+  },
+  {
+   "id": 243817,
+   "type": "message",
+   "date": "2025-11-12T23:24:32",
+   "date_unixtime": "1762961072",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "能给买什么吃吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "能给买什么吃吗"
+    }
+   ]
+  },
+  {
+   "id": 243834,
+   "type": "message",
+   "date": "2025-11-12T23:27:03",
+   "date_unixtime": "1762961223",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "看你想要什么",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "看你想要什么"
+    }
+   ]
+  },
+  {
+   "id": 243951,
+   "type": "message",
+   "date": "2025-11-13T00:05:13",
+   "date_unixtime": "1762963513",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "现在也就只有烧烤店上班了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "现在也就只有烧烤店上班了"
+    }
+   ]
+  },
+  {
+   "id": 243952,
+   "type": "message",
+   "date": "2025-11-13T00:05:16",
+   "date_unixtime": "1762963516",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那你能给我吃烧烤吗）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你能给我吃烧烤吗）"
+    }
+   ]
+  },
+  {
+   "id": 243986,
+   "type": "message",
+   "date": "2025-11-13T00:24:21",
+   "date_unixtime": "1762964661",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "还在吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "还在吗"
+    }
+   ]
+  },
+  {
+   "id": 243987,
+   "type": "message",
+   "date": "2025-11-13T00:25:13",
+   "date_unixtime": "1762964713",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "在的喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "在的喵"
+    }
+   ]
+  },
+  {
+   "id": 243988,
+   "type": "message",
+   "date": "2025-11-13T00:25:17",
+   "date_unixtime": "1762964717",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "怎么了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "怎么了"
+    }
+   ]
+  },
+  {
+   "id": 244004,
+   "type": "message",
+   "date": "2025-11-13T00:26:52",
+   "date_unixtime": "1762964812",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你能给我多少嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你能给我多少嘛"
+    }
+   ]
+  },
+  {
+   "id": 244005,
+   "type": "message",
+   "date": "2025-11-13T00:26:55",
+   "date_unixtime": "1762964815",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "吃饭也好，猫被人骗了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "吃饭也好，猫被人骗了"
+    }
+   ]
+  },
+  {
+   "id": 244007,
+   "type": "message",
+   "date": "2025-11-13T00:26:59",
+   "date_unixtime": "1762964819",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "一个人要我的身份证号码，说要给我钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "一个人要我的身份证号码，说要给我钱"
+    }
+   ]
+  },
+  {
+   "id": 244008,
+   "type": "message",
+   "date": "2025-11-13T00:27:03",
+   "date_unixtime": "1762964823",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后给他了之后就不理我了呜呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后给他了之后就不理我了呜呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244009,
+   "type": "message",
+   "date": "2025-11-13T00:28:39",
+   "date_unixtime": "1762964919",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "额..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "额.."
+    }
+   ]
+  },
+  {
+   "id": 244010,
+   "type": "message",
+   "date": "2025-11-13T00:28:41",
+   "date_unixtime": "1762964921",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那很笨了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那很笨了"
+    }
+   ]
+  },
+  {
+   "id": 244012,
+   "type": "message",
+   "date": "2025-11-13T00:28:51",
+   "date_unixtime": "1762964931",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (4).webp",
+   "file_name": "sticker.webp",
+   "file_size": 26758,
+   "thumbnail": "stickers/sticker.webp_thumb.jpg",
+   "thumbnail_file_size": 14990,
+   "media_type": "sticker",
+   "sticker_emoji": "👍",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244013,
+   "type": "message",
+   "date": "2025-11-13T00:28:58",
+   "date_unixtime": "1762964938",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_2@13-11-2025_00-28-58.jpg",
+   "photo_file_size": 82076,
+   "width": 576,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244014,
+   "type": "message",
+   "date": "2025-11-13T00:28:58",
+   "date_unixtime": "1762964938",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_3@13-11-2025_00-28-58.jpg",
+   "photo_file_size": 73614,
+   "width": 576,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244015,
+   "type": "message",
+   "date": "2025-11-13T00:29:01",
+   "date_unixtime": "1762964941",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "发完就不理我了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "发完就不理我了"
+    }
+   ]
+  },
+  {
+   "id": 244053,
+   "type": "message",
+   "date": "2025-11-13T00:47:31",
+   "date_unixtime": "1762966051",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "给我点饭吃吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "给我点饭吃吧"
+    }
+   ]
+  },
+  {
+   "id": 244089,
+   "type": "message",
+   "date": "2025-11-13T01:07:08",
+   "date_unixtime": "1762967228",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有人吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有人吗"
+    }
+   ]
+  },
+  {
+   "id": 244090,
+   "type": "message",
+   "date": "2025-11-13T01:07:11",
+   "date_unixtime": "1762967231",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244091,
+   "type": "message",
+   "date": "2025-11-13T01:07:14",
+   "date_unixtime": "1762967234",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "为什么不理我",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "为什么不理我"
+    }
+   ]
+  },
+  {
+   "id": 244172,
+   "type": "message",
+   "date": "2025-11-13T01:16:36",
+   "date_unixtime": "1762967796",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你还在吗...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你还在吗..."
+    }
+   ]
+  },
+  {
+   "id": 244185,
+   "type": "message",
+   "date": "2025-11-13T01:17:58",
+   "date_unixtime": "1762967878",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "为什么不看看我...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "为什么不看看我..."
+    }
+   ]
+  },
+  {
+   "id": 244187,
+   "type": "message",
+   "date": "2025-11-13T01:18:01",
+   "date_unixtime": "1762967881",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "看看我...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "看看我..."
+    }
+   ]
+  },
+  {
+   "id": 244188,
+   "type": "message",
+   "date": "2025-11-13T01:18:05",
+   "date_unixtime": "1762967885",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "求你了，帮帮我...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "求你了，帮帮我..."
+    }
+   ]
+  },
+  {
+   "id": 244197,
+   "type": "message",
+   "date": "2025-11-13T01:19:11",
+   "date_unixtime": "1762967951",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "为什么连你都不理我了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "为什么连你都不理我了"
+    }
+   ]
+  },
+  {
+   "id": 244198,
+   "type": "message",
+   "date": "2025-11-13T01:19:13",
+   "date_unixtime": "1762967953",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244220,
+   "type": "message",
+   "date": "2025-11-13T01:22:45",
+   "date_unixtime": "1762968165",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "人呢...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "人呢..."
+    }
+   ]
+  },
+  {
+   "id": 244232,
+   "type": "message",
+   "date": "2025-11-13T01:24:52",
+   "date_unixtime": "1762968292",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (7).webp",
+   "file_name": "sticker.webp",
+   "file_size": 25160,
+   "thumbnail": "stickers/sticker (3).webp_thumb.jpg",
+   "thumbnail_file_size": 13896,
+   "media_type": "sticker",
+   "sticker_emoji": "😮‍💨",
+   "mime_type": "image/webp",
+   "width": 508,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244233,
+   "type": "message",
+   "date": "2025-11-13T01:24:58",
+   "date_unixtime": "1762968298",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "在忙....",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "在忙...."
+    }
+   ]
+  },
+  {
+   "id": 244234,
+   "type": "message",
+   "date": "2025-11-13T01:25:03",
+   "date_unixtime": "1762968303",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "迁移服务器",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "迁移服务器"
+    }
+   ]
+  },
+  {
+   "id": 244235,
+   "type": "message",
+   "date": "2025-11-13T01:25:06",
+   "date_unixtime": "1762968306",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "为什么你看人可以不显示已读",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "为什么你看人可以不显示已读"
+    }
+   ]
+  },
+  {
+   "id": 244236,
+   "type": "message",
+   "date": "2025-11-13T01:25:08",
+   "date_unixtime": "1762968308",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244237,
+   "type": "message",
+   "date": "2025-11-13T01:25:21",
+   "date_unixtime": "1762968321",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "生产环境 有时间要求",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "生产环境 有时间要求"
+    }
+   ]
+  },
+  {
+   "id": 244239,
+   "type": "message",
+   "date": "2025-11-13T01:25:25",
+   "date_unixtime": "1762968325",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244235,
+   "file": "stickers/sticker (11).webp",
+   "file_name": "sticker.webp",
+   "file_size": 16196,
+   "thumbnail": "stickers/sticker (7).webp_thumb.jpg",
+   "thumbnail_file_size": 8944,
+   "media_type": "sticker",
+   "sticker_emoji": "🌟",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 333,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244252,
+   "type": "message",
+   "date": "2025-11-13T01:26:30",
+   "date_unixtime": "1762968390",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那你能给我买吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你能给我买吗"
+    }
+   ]
+  },
+  {
+   "id": 244254,
+   "type": "message",
+   "date": "2025-11-13T01:26:34",
+   "date_unixtime": "1762968394",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我看看还有没有店开门的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我看看还有没有店开门的"
+    }
+   ]
+  },
+  {
+   "id": 244266,
+   "type": "message",
+   "date": "2025-11-13T01:29:03",
+   "date_unixtime": "1762968543",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你能给我买吃的吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你能给我买吃的吗"
+    }
+   ]
+  },
+  {
+   "id": 244269,
+   "type": "message",
+   "date": "2025-11-13T01:31:03",
+   "date_unixtime": "1762968663",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "人呢..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "人呢.."
+    }
+   ]
+  },
+  {
+   "id": 244288,
+   "type": "message",
+   "date": "2025-11-13T01:57:41",
+   "date_unixtime": "1762970261",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有人吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有人吗"
+    }
+   ]
+  },
+  {
+   "id": 244289,
+   "type": "message",
+   "date": "2025-11-13T01:57:44",
+   "date_unixtime": "1762970264",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有人吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有人吗"
+    }
+   ]
+  },
+  {
+   "id": 244290,
+   "type": "message",
+   "date": "2025-11-13T01:57:46",
+   "date_unixtime": "1762970266",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244291,
+   "type": "message",
+   "date": "2025-11-13T02:13:40",
+   "date_unixtime": "1762971220",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有人吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有人吗"
+    }
+   ]
+  },
+  {
+   "id": 244756,
+   "type": "message",
+   "date": "2025-11-13T16:29:41",
+   "date_unixtime": "1763022581",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "喵呜...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "喵呜..."
+    }
+   ]
+  },
+  {
+   "id": 244766,
+   "type": "message",
+   "date": "2025-11-13T16:33:23",
+   "date_unixtime": "1763022803",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "怎么啦",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "怎么啦"
+    }
+   ]
+  },
+  {
+   "id": 244767,
+   "type": "message",
+   "date": "2025-11-13T16:33:25",
+   "date_unixtime": "1763022805",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (12).webp",
+   "file_name": "sticker.webp",
+   "file_size": 41178,
+   "thumbnail": "stickers/sticker (8).webp_thumb.jpg",
+   "thumbnail_file_size": 21932,
+   "media_type": "sticker",
+   "sticker_emoji": "🙁",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 500,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244773,
+   "type": "message",
+   "date": "2025-11-13T16:34:20",
+   "date_unixtime": "1763022860",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "昨天要饭那个人非要说我是骗子...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "昨天要饭那个人非要说我是骗子..."
+    }
+   ]
+  },
+  {
+   "id": 244774,
+   "type": "message",
+   "date": "2025-11-13T16:34:39",
+   "date_unixtime": "1763022879",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "猫想把身上剩的钱都给他，然后让他给我买点好的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "猫想把身上剩的钱都给他，然后让他给我买点好的"
+    }
+   ]
+  },
+  {
+   "id": 244775,
+   "type": "message",
+   "date": "2025-11-13T16:34:44",
+   "date_unixtime": "1763022884",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后他说为什么不去24小时便利店",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后他说为什么不去24小时便利店"
+    }
+   ]
+  },
+  {
+   "id": 244777,
+   "type": "message",
+   "date": "2025-11-13T16:34:48",
+   "date_unixtime": "1763022888",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就说我是骗子，我怎么解释都没用",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就说我是骗子，我怎么解释都没用"
+    }
+   ]
+  },
+  {
+   "id": 244778,
+   "type": "message",
+   "date": "2025-11-13T16:34:49",
+   "date_unixtime": "1763022889",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244779,
+   "type": "message",
+   "date": "2025-11-13T16:34:57",
+   "date_unixtime": "1763022897",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (13).webp",
+   "file_name": "sticker.webp",
+   "file_size": 24394,
+   "thumbnail": "stickers/sticker (9).webp_thumb.jpg",
+   "thumbnail_file_size": 14174,
+   "media_type": "sticker",
+   "sticker_emoji": "💖",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 386,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244780,
+   "type": "message",
+   "date": "2025-11-13T16:35:02",
+   "date_unixtime": "1763022902",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那你给了吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你给了吗"
+    }
+   ]
+  },
+  {
+   "id": 244781,
+   "type": "message",
+   "date": "2025-11-13T16:35:02",
+   "date_unixtime": "1763022902",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我们这里没有24小时便利店，只有17小时",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我们这里没有24小时便利店，只有17小时"
+    }
+   ]
+  },
+  {
+   "id": 244783,
+   "type": "message",
+   "date": "2025-11-13T16:35:07",
+   "date_unixtime": "1763022907",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 244780,
+   "text": "他不信我，所以我没给他",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他不信我，所以我没给他"
+    }
+   ]
+  },
+  {
+   "id": 244784,
+   "type": "message",
+   "date": "2025-11-13T16:35:28",
+   "date_unixtime": "1763022928",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "一直骂我",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "一直骂我"
+    }
+   ]
+  },
+  {
+   "id": 244785,
+   "type": "message",
+   "date": "2025-11-13T16:35:30",
+   "date_unixtime": "1763022930",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244786,
+   "type": "message",
+   "date": "2025-11-13T16:35:34",
+   "date_unixtime": "1763022934",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (7).webp",
+   "file_name": "sticker.webp",
+   "file_size": 25160,
+   "thumbnail": "stickers/sticker (3).webp_thumb.jpg",
+   "thumbnail_file_size": 13896,
+   "media_type": "sticker",
+   "sticker_emoji": "😮‍💨",
+   "mime_type": "image/webp",
+   "width": 508,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244788,
+   "type": "message",
+   "date": "2025-11-13T16:35:49",
+   "date_unixtime": "1763022949",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我看晚上只剩个炸鸡店了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我看晚上只剩个炸鸡店了"
+    }
+   ]
+  },
+  {
+   "id": 244789,
+   "type": "message",
+   "date": "2025-11-13T16:35:53",
+   "date_unixtime": "1763022953",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我说最低的套餐也得32吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我说最低的套餐也得32吧"
+    }
+   ]
+  },
+  {
+   "id": 244790,
+   "type": "message",
+   "date": "2025-11-13T16:36:00",
+   "date_unixtime": "1763022960",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我身上还有24块钱你要是觉得我不可信，我把我24给你，你帮我买",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我身上还有24块钱你要是觉得我不可信，我把我24给你，你帮我买"
+    }
+   ]
+  },
+  {
+   "id": 244793,
+   "type": "message",
+   "date": "2025-11-13T16:36:03",
+   "date_unixtime": "1763022963",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后他就开始了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后他就开始了"
+    }
+   ]
+  },
+  {
+   "id": 244794,
+   "type": "message",
+   "date": "2025-11-13T16:36:05",
+   "date_unixtime": "1763022965",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244795,
+   "type": "message",
+   "date": "2025-11-13T16:36:11",
+   "date_unixtime": "1763022971",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (14).webp",
+   "file_name": "sticker.webp",
+   "file_size": 20998,
+   "thumbnail": "stickers/sticker (10).webp_thumb.jpg",
+   "thumbnail_file_size": 13004,
+   "media_type": "sticker",
+   "sticker_emoji": "🫥",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244796,
+   "type": "message",
+   "date": "2025-11-13T16:36:23",
+   "date_unixtime": "1763022983",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "因为当时已经凌晨0点多",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "因为当时已经凌晨0点多"
+    }
+   ]
+  },
+  {
+   "id": 244797,
+   "type": "message",
+   "date": "2025-11-13T16:36:28",
+   "date_unixtime": "1763022988",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "已经没什么饭店开门",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "已经没什么饭店开门"
+    }
+   ]
+  },
+  {
+   "id": 244800,
+   "type": "message",
+   "date": "2025-11-13T16:37:49",
+   "date_unixtime": "1763023069",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你能给我点好吃的吗...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你能给我点好吃的吗..."
+    }
+   ]
+  },
+  {
+   "id": 244801,
+   "type": "message",
+   "date": "2025-11-13T16:37:53",
+   "date_unixtime": "1763023073",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244789,
+   "text": "那很贵吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那很贵吧"
+    }
+   ]
+  },
+  {
+   "id": 244802,
+   "type": "message",
+   "date": "2025-11-13T16:38:02",
+   "date_unixtime": "1763023082",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我身上还有25",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我身上还有25"
+    }
+   ]
+  },
+  {
+   "id": 244803,
+   "type": "message",
+   "date": "2025-11-13T16:38:04",
+   "date_unixtime": "1763023084",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "确定最低价格32嘛..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "确定最低价格32嘛.."
+    }
+   ]
+  },
+  {
+   "id": 244804,
+   "type": "message",
+   "date": "2025-11-13T16:38:16",
+   "date_unixtime": "1763023096",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 244803,
+   "text": "华莱士",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "华莱士"
+    }
+   ]
+  },
+  {
+   "id": 244805,
+   "type": "message",
+   "date": "2025-11-13T16:38:27",
+   "date_unixtime": "1763023107",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不都是这个价吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不都是这个价吗"
+    }
+   ]
+  },
+  {
+   "id": 244811,
+   "type": "message",
+   "date": "2025-11-13T16:38:44",
+   "date_unixtime": "1763023124",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "起送25，但是没有25的套餐",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "起送25，但是没有25的套餐"
+    }
+   ]
+  },
+  {
+   "id": 244815,
+   "type": "message",
+   "date": "2025-11-13T16:39:06",
+   "date_unixtime": "1763023146",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那没别的店吗（",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那没别的店吗（"
+    }
+   ]
+  },
+  {
+   "id": 244820,
+   "type": "message",
+   "date": "2025-11-13T16:39:48",
+   "date_unixtime": "1763023188",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244797,
+   "text": "那现在有饭店开门了吧）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那现在有饭店开门了吧）"
+    }
+   ]
+  },
+  {
+   "id": 244825,
+   "type": "message",
+   "date": "2025-11-13T16:41:00",
+   "date_unixtime": "1763023260",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有了）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有了）"
+    }
+   ]
+  },
+  {
+   "id": 244826,
+   "type": "message",
+   "date": "2025-11-13T16:41:04",
+   "date_unixtime": "1763023264",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你能请我吃吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你能请我吃吗"
+    }
+   ]
+  },
+  {
+   "id": 244827,
+   "type": "message",
+   "date": "2025-11-13T16:41:11",
+   "date_unixtime": "1763023271",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那 你身上还有多少现在",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那 你身上还有多少现在"
+    }
+   ]
+  },
+  {
+   "id": 244828,
+   "type": "message",
+   "date": "2025-11-13T16:41:20",
+   "date_unixtime": "1763023280",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "只剩四块了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "只剩四块了"
+    }
+   ]
+  },
+  {
+   "id": 244830,
+   "type": "message",
+   "date": "2025-11-13T16:41:50",
+   "date_unixtime": "1763023310",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我想吃面）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我想吃面）"
+    }
+   ]
+  },
+  {
+   "id": 244831,
+   "type": "message",
+   "date": "2025-11-13T16:42:35",
+   "date_unixtime": "1763023355",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244830,
+   "text": "这个要多少 最低的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这个要多少 最低的"
+    }
+   ]
+  },
+  {
+   "id": 244833,
+   "type": "message",
+   "date": "2025-11-13T16:43:15",
+   "date_unixtime": "1763023395",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我去吃，你付钱）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我去吃，你付钱）"
+    }
+   ]
+  },
+  {
+   "id": 244834,
+   "type": "message",
+   "date": "2025-11-13T16:43:21",
+   "date_unixtime": "1763023401",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就一顿而已，不会贵的x",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就一顿而已，不会贵的x"
+    }
+   ]
+  },
+  {
+   "id": 244835,
+   "type": "message",
+   "date": "2025-11-13T16:43:23",
+   "date_unixtime": "1763023403",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "或者点外卖也好",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "或者点外卖也好"
+    }
+   ]
+  },
+  {
+   "id": 244836,
+   "type": "message",
+   "date": "2025-11-13T16:43:28",
+   "date_unixtime": "1763023408",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "昨晚就是想去吃个烤鸭啥的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "昨晚就是想去吃个烤鸭啥的"
+    }
+   ]
+  },
+  {
+   "id": 244837,
+   "type": "message",
+   "date": "2025-11-13T16:43:31",
+   "date_unixtime": "1763023411",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "他非要说我是骗子",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他非要说我是骗子"
+    }
+   ]
+  },
+  {
+   "id": 244838,
+   "type": "message",
+   "date": "2025-11-13T16:43:37",
+   "date_unixtime": "1763023417",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244834,
+   "text": "但我得知道具体价格",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但我得知道具体价格"
+    }
+   ]
+  },
+  {
+   "id": 244839,
+   "type": "message",
+   "date": "2025-11-13T16:43:44",
+   "date_unixtime": "1763023424",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "万一你一顿饭就是50",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "万一你一顿饭就是50"
+    }
+   ]
+  },
+  {
+   "id": 244840,
+   "type": "message",
+   "date": "2025-11-13T16:43:50",
+   "date_unixtime": "1763023430",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不可能50",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不可能50"
+    }
+   ]
+  },
+  {
+   "id": 244842,
+   "type": "message",
+   "date": "2025-11-13T16:43:58",
+   "date_unixtime": "1763023438",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我在家里点过最贵的一顿外卖，除非是特殊消费，比如肯德基和麦当劳这种",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我在家里点过最贵的一顿外卖，除非是特殊消费，比如肯德基和麦当劳这种"
+    }
+   ]
+  },
+  {
+   "id": 244844,
+   "type": "message",
+   "date": "2025-11-13T16:44:02",
+   "date_unixtime": "1763023442",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我点的小餐馆的费用不会超过40",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我点的小餐馆的费用不会超过40"
+    }
+   ]
+  },
+  {
+   "id": 244847,
+   "type": "message",
+   "date": "2025-11-13T16:44:09",
+   "date_unixtime": "1763023449",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "肯德基超过50很正常",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "肯德基超过50很正常"
+    }
+   ]
+  },
+  {
+   "id": 244848,
+   "type": "message",
+   "date": "2025-11-13T16:44:18",
+   "date_unixtime": "1763023458",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "疯狂星期四都要保底50块钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "疯狂星期四都要保底50块钱"
+    }
+   ]
+  },
+  {
+   "id": 244849,
+   "type": "message",
+   "date": "2025-11-13T16:44:21",
+   "date_unixtime": "1763023461",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "这个不用多说",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这个不用多说"
+    }
+   ]
+  },
+  {
+   "id": 244850,
+   "type": "message",
+   "date": "2025-11-13T16:44:33",
+   "date_unixtime": "1763023473",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": [
+    {
+     "type": "strikethrough",
+     "text": "不如你直接让我吃星期四好了"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "strikethrough",
+     "text": "不如你直接让我吃星期四好了"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 244851,
+   "type": "message",
+   "date": "2025-11-13T16:45:08",
+   "date_unixtime": "1763023508",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以嘛）。",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以嘛）。"
+    }
+   ]
+  },
+  {
+   "id": 244852,
+   "type": "message",
+   "date": "2025-11-13T16:45:53",
+   "date_unixtime": "1763023553",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244851,
+   "text": "所以到底要多少",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "所以到底要多少"
+    }
+   ]
+  },
+  {
+   "id": 244854,
+   "type": "message",
+   "date": "2025-11-13T16:46:12",
+   "date_unixtime": "1763023572",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我看看",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我看看"
+    }
+   ]
+  },
+  {
+   "id": 244855,
+   "type": "message",
+   "date": "2025-11-13T16:47:43",
+   "date_unixtime": "1763023663",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我看昨天那个烤鸭店吧x",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我看昨天那个烤鸭店吧x"
+    }
+   ]
+  },
+  {
+   "id": 244856,
+   "type": "message",
+   "date": "2025-11-13T16:50:28",
+   "date_unixtime": "1763023828",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": [
+    {
+     "type": "strikethrough",
+     "text": "那你能请我吃肯德基那个50块的那个嘛"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "strikethrough",
+     "text": "那你能请我吃肯德基那个50块的那个嘛"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 244857,
+   "type": "message",
+   "date": "2025-11-13T16:50:33",
+   "date_unixtime": "1763023833",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就一次（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就一次（）"
+    }
+   ]
+  },
+  {
+   "id": 244858,
+   "type": "message",
+   "date": "2025-11-13T16:50:44",
+   "date_unixtime": "1763023844",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "file": "stickers/sticker (15).webp",
+   "file_name": "sticker.webp",
+   "file_size": 31056,
+   "thumbnail": "stickers/sticker (11).webp_thumb.jpg",
+   "thumbnail_file_size": 18634,
+   "media_type": "sticker",
+   "sticker_emoji": "😢",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244860,
+   "type": "message",
+   "date": "2025-11-13T16:51:24",
+   "date_unixtime": "1763023884",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那"
+    }
+   ]
+  },
+  {
+   "id": 244861,
+   "type": "service",
+   "date": "2025-11-13T16:51:31",
+   "date_unixtime": "1763023891",
+   "actor": "NekoCurit",
+   "actor_id": "user6657461989",
+   "action": "set_messages_ttl",
+   "period": 0,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244862,
+   "type": "message",
+   "date": "2025-11-13T16:51:38",
+   "date_unixtime": "1763023898",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "喵"
+    }
+   ]
+  },
+  {
+   "id": 244863,
+   "type": "message",
+   "date": "2025-11-13T16:51:46",
+   "date_unixtime": "1763023906",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你是真敢）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你是真敢）"
+    }
+   ]
+  },
+  {
+   "id": 244864,
+   "type": "message",
+   "date": "2025-11-13T16:51:55",
+   "date_unixtime": "1763023915",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "便宜的能吃好几顿 贵的只能吃一顿",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "便宜的能吃好几顿 贵的只能吃一顿"
+    }
+   ]
+  },
+  {
+   "id": 244865,
+   "type": "message",
+   "date": "2025-11-13T16:52:06",
+   "date_unixtime": "1763023926",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "早上买了点奶吃了，没钱了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "早上买了点奶吃了，没钱了"
+    }
+   ]
+  },
+  {
+   "id": 244866,
+   "type": "message",
+   "date": "2025-11-13T16:52:12",
+   "date_unixtime": "1763023932",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你可以说我很奇怪，喜欢乱花钱）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你可以说我很奇怪，喜欢乱花钱）"
+    }
+   ]
+  },
+  {
+   "id": 244867,
+   "type": "message",
+   "date": "2025-11-13T16:52:15",
+   "date_unixtime": "1763023935",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "但我真的不是不吃",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但我真的不是不吃"
+    }
+   ]
+  },
+  {
+   "id": 244868,
+   "type": "message",
+   "date": "2025-11-13T16:52:19",
+   "date_unixtime": "1763023939",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "他就是说我说我挑不想吃不好的）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他就是说我说我挑不想吃不好的）"
+    }
+   ]
+  },
+  {
+   "id": 244869,
+   "type": "message",
+   "date": "2025-11-13T16:52:59",
+   "date_unixtime": "1763023979",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "主要的是我们这里附近真没有啥低价好吃的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "主要的是我们这里附近真没有啥低价好吃的"
+    }
+   ]
+  },
+  {
+   "id": 244870,
+   "type": "message",
+   "date": "2025-11-13T16:53:03",
+   "date_unixtime": "1763023983",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "要想吃便宜点的，我下去吃可以）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "要想吃便宜点的，我下去吃可以）"
+    }
+   ]
+  },
+  {
+   "id": 244871,
+   "type": "message",
+   "date": "2025-11-13T16:53:05",
+   "date_unixtime": "1763023985",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以省20块钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以省20块钱"
+    }
+   ]
+  },
+  {
+   "id": 244872,
+   "type": "message",
+   "date": "2025-11-13T16:53:19",
+   "date_unixtime": "1763023999",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "但昨晚是因为下大雨，而且当时10多点了，也没有啥饭店开门了，就想找他要个鸭子吃",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但昨晚是因为下大雨，而且当时10多点了，也没有啥饭店开门了，就想找他要个鸭子吃"
+    }
+   ]
+  },
+  {
+   "id": 244873,
+   "type": "message",
+   "date": "2025-11-13T16:53:22",
+   "date_unixtime": "1763024002",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后直接把我骂了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后直接把我骂了"
+    }
+   ]
+  },
+  {
+   "id": 244874,
+   "type": "message",
+   "date": "2025-11-13T16:53:23",
+   "date_unixtime": "1763024003",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244875,
+   "type": "message",
+   "date": "2025-11-13T16:53:30",
+   "date_unixtime": "1763024010",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我饮料都喝1块钱的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我饮料都喝1块钱的"
+    }
+   ]
+  },
+  {
+   "id": 244876,
+   "type": "message",
+   "date": "2025-11-13T16:53:38",
+   "date_unixtime": "1763024018",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_4@13-11-2025_16-53-38.jpg",
+   "photo_file_size": 83652,
+   "width": 720,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244877,
+   "type": "message",
+   "date": "2025-11-13T16:53:47",
+   "date_unixtime": "1763024027",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "这个东西店里就卖，1块钱一瓶 网购便宜的1块钱不到，5毛钱都不到",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这个东西店里就卖，1块钱一瓶 网购便宜的1块钱不到，5毛钱都不到"
+    }
+   ]
+  },
+  {
+   "id": 244878,
+   "type": "message",
+   "date": "2025-11-13T16:53:49",
+   "date_unixtime": "1763024029",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "多的都是运费",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "多的都是运费"
+    }
+   ]
+  },
+  {
+   "id": 244879,
+   "type": "message",
+   "date": "2025-11-13T16:53:51",
+   "date_unixtime": "1763024031",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你可以去搜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你可以去搜"
+    }
+   ]
+  },
+  {
+   "id": 244880,
+   "type": "message",
+   "date": "2025-11-13T16:54:53",
+   "date_unixtime": "1763024093",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "（）"
+    }
+   ]
+  },
+  {
+   "id": 244881,
+   "type": "message",
+   "date": "2025-11-13T16:54:56",
+   "date_unixtime": "1763024096",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (16).webp",
+   "file_name": "sticker.webp",
+   "file_size": 46848,
+   "thumbnail": "stickers/sticker (12).webp_thumb.jpg",
+   "thumbnail_file_size": 27034,
+   "media_type": "sticker",
+   "sticker_emoji": "⭐",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244882,
+   "type": "message",
+   "date": "2025-11-13T16:55:25",
+   "date_unixtime": "1763024125",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以嘛"
+    }
+   ]
+  },
+  {
+   "id": 244883,
+   "type": "message",
+   "date": "2025-11-13T16:55:27",
+   "date_unixtime": "1763024127",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "加运费54",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "加运费54"
+    }
+   ]
+  },
+  {
+   "id": 244884,
+   "type": "message",
+   "date": "2025-11-13T16:55:32",
+   "date_unixtime": "1763024132",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就这一次嘛~",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就这一次嘛~"
+    }
+   ]
+  },
+  {
+   "id": 244885,
+   "type": "message",
+   "date": "2025-11-13T16:55:36",
+   "date_unixtime": "1763024136",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "猫猫...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "猫猫..."
+    }
+   ]
+  },
+  {
+   "id": 244886,
+   "type": "message",
+   "date": "2025-11-13T16:56:05",
+   "date_unixtime": "1763024165",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "还在吗喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "还在吗喵"
+    }
+   ]
+  },
+  {
+   "id": 244887,
+   "type": "message",
+   "date": "2025-11-13T16:56:12",
+   "date_unixtime": "1763024172",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "还在",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "还在"
+    }
+   ]
+  },
+  {
+   "id": 244888,
+   "type": "message",
+   "date": "2025-11-13T16:57:02",
+   "date_unixtime": "1763024222",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以吗可以吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以吗可以吗"
+    }
+   ]
+  },
+  {
+   "id": 244889,
+   "type": "message",
+   "date": "2025-11-13T16:57:07",
+   "date_unixtime": "1763024227",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就这一次嘛，就50块钱——",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就这一次嘛，就50块钱——"
+    }
+   ]
+  },
+  {
+   "id": 244890,
+   "type": "message",
+   "date": "2025-11-13T16:57:13",
+   "date_unixtime": "1763024233",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我要吃星期四（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我要吃星期四（）"
+    }
+   ]
+  },
+  {
+   "id": 244891,
+   "type": "message",
+   "date": "2025-11-13T16:57:52",
+   "date_unixtime": "1763024272",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (13).webp",
+   "file_name": "sticker.webp",
+   "file_size": 24394,
+   "thumbnail": "stickers/sticker (9).webp_thumb.jpg",
+   "thumbnail_file_size": 14174,
+   "media_type": "sticker",
+   "sticker_emoji": "💖",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 386,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244892,
+   "type": "message",
+   "date": "2025-11-13T16:57:55",
+   "date_unixtime": "1763024275",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那太贵了吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那太贵了吧"
+    }
+   ]
+  },
+  {
+   "id": 244893,
+   "type": "message",
+   "date": "2025-11-13T16:58:08",
+   "date_unixtime": "1763024288",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "请了你我接下来几天就完了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "请了你我接下来几天就完了"
+    }
+   ]
+  },
+  {
+   "id": 244894,
+   "type": "message",
+   "date": "2025-11-13T16:58:09",
+   "date_unixtime": "1763024289",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "QAQ",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "QAQ"
+    }
+   ]
+  },
+  {
+   "id": 244895,
+   "type": "message",
+   "date": "2025-11-13T16:58:13",
+   "date_unixtime": "1763024293",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜好吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜好吧"
+    }
+   ]
+  },
+  {
+   "id": 244896,
+   "type": "message",
+   "date": "2025-11-13T16:58:16",
+   "date_unixtime": "1763024296",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那昨天那个烤鸭呢只要35）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那昨天那个烤鸭呢只要35）"
+    }
+   ]
+  },
+  {
+   "id": 244897,
+   "type": "message",
+   "date": "2025-11-13T16:58:40",
+   "date_unixtime": "1763024320",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (17).webp",
+   "file_name": "sticker.webp",
+   "file_size": 17930,
+   "thumbnail": "stickers/sticker (13).webp_thumb.jpg",
+   "thumbnail_file_size": 10090,
+   "media_type": "sticker",
+   "sticker_emoji": "😌",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 391,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244898,
+   "type": "message",
+   "date": "2025-11-13T16:58:48",
+   "date_unixtime": "1763024328",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你那里物价真高",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你那里物价真高"
+    }
+   ]
+  },
+  {
+   "id": 244899,
+   "type": "message",
+   "date": "2025-11-13T16:58:57",
+   "date_unixtime": "1763024337",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "33",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "33"
+    }
+   ]
+  },
+  {
+   "id": 244900,
+   "type": "message",
+   "date": "2025-11-13T16:59:08",
+   "date_unixtime": "1763024348",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "photo": "photos/photo_5@13-11-2025_16-59-08.jpg",
+   "photo_file_size": 314289,
+   "width": 625,
+   "height": 2560,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244901,
+   "type": "message",
+   "date": "2025-11-13T16:59:11",
+   "date_unixtime": "1763024351",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (13).webp",
+   "file_name": "sticker.webp",
+   "file_size": 24394,
+   "thumbnail": "stickers/sticker (9).webp_thumb.jpg",
+   "thumbnail_file_size": 14174,
+   "media_type": "sticker",
+   "sticker_emoji": "💖",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 386,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244902,
+   "type": "message",
+   "date": "2025-11-13T16:59:15",
+   "date_unixtime": "1763024355",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 244898,
+   "text": "宁波边上的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "宁波边上的"
+    }
+   ]
+  },
+  {
+   "id": 244903,
+   "type": "message",
+   "date": "2025-11-13T16:59:21",
+   "date_unixtime": "1763024361",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "宁波挨杭州那里",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "宁波挨杭州那里"
+    }
+   ]
+  },
+  {
+   "id": 244904,
+   "type": "message",
+   "date": "2025-11-13T16:59:24",
+   "date_unixtime": "1763024364",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "Buff叠满了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Buff叠满了"
+    }
+   ]
+  },
+  {
+   "id": 244905,
+   "type": "message",
+   "date": "2025-11-13T16:59:32",
+   "date_unixtime": "1763024372",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 244900,
+   "text": "我们拼好饭都这个价格",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我们拼好饭都这个价格"
+    }
+   ]
+  },
+  {
+   "id": 244906,
+   "type": "message",
+   "date": "2025-11-13T16:59:40",
+   "date_unixtime": "1763024380",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "都没有所谓九块九的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "都没有所谓九块九的"
+    }
+   ]
+  },
+  {
+   "id": 244907,
+   "type": "message",
+   "date": "2025-11-13T16:59:43",
+   "date_unixtime": "1763024383",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "九块九的只有奶茶",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "九块九的只有奶茶"
+    }
+   ]
+  },
+  {
+   "id": 244908,
+   "type": "message",
+   "date": "2025-11-13T16:59:45",
+   "date_unixtime": "1763024385",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "饭都是15块",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "饭都是15块"
+    }
+   ]
+  },
+  {
+   "id": 244909,
+   "type": "message",
+   "date": "2025-11-13T17:00:28",
+   "date_unixtime": "1763024428",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_6@13-11-2025_17-00-28.jpg",
+   "photo_file_size": 130239,
+   "width": 576,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244910,
+   "type": "message",
+   "date": "2025-11-13T17:00:32",
+   "date_unixtime": "1763024432",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "拼好饭都贵有18的）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "拼好饭都贵有18的）"
+    }
+   ]
+  },
+  {
+   "id": 244911,
+   "type": "message",
+   "date": "2025-11-13T17:00:49",
+   "date_unixtime": "1763024449",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我去到鄞州区那边炒饭店",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我去到鄞州区那边炒饭店"
+    }
+   ]
+  },
+  {
+   "id": 244912,
+   "type": "message",
+   "date": "2025-11-13T17:00:55",
+   "date_unixtime": "1763024455",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有一次我去网吧那里玩，附近有一个炒饭的店，那边的一个蛋炒饭都只要九块九",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有一次我去网吧那里玩，附近有一个炒饭的店，那边的一个蛋炒饭都只要九块九"
+    }
+   ]
+  },
+  {
+   "id": 244913,
+   "type": "message",
+   "date": "2025-11-13T17:00:59",
+   "date_unixtime": "1763024459",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "而且那个牌子我之前去上海的时候吃过，特好吃",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "而且那个牌子我之前去上海的时候吃过，特好吃"
+    }
+   ]
+  },
+  {
+   "id": 244914,
+   "type": "message",
+   "date": "2025-11-13T17:01:02",
+   "date_unixtime": "1763024462",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不知道为啥，到我这里就贵死了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不知道为啥，到我这里就贵死了"
+    }
+   ]
+  },
+  {
+   "id": 244915,
+   "type": "message",
+   "date": "2025-11-13T17:01:05",
+   "date_unixtime": "1763024465",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "而且还没有那种店",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "而且还没有那种店"
+    }
+   ]
+  },
+  {
+   "id": 244925,
+   "type": "message",
+   "date": "2025-11-13T17:03:34",
+   "date_unixtime": "1763024614",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "一个烤鸭店32（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "一个烤鸭店32（）"
+    }
+   ]
+  },
+  {
+   "id": 244926,
+   "type": "message",
+   "date": "2025-11-13T17:03:37",
+   "date_unixtime": "1763024617",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以嘛"
+    }
+   ]
+  },
+  {
+   "id": 244927,
+   "type": "message",
+   "date": "2025-11-13T17:03:38",
+   "date_unixtime": "1763024618",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244929,
+   "type": "message",
+   "date": "2025-11-13T17:03:48",
+   "date_unixtime": "1763024628",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "但是这也太贵了吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但是这也太贵了吧"
+    }
+   ]
+  },
+  {
+   "id": 244930,
+   "type": "message",
+   "date": "2025-11-13T17:03:52",
+   "date_unixtime": "1763024632",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244931,
+   "type": "message",
+   "date": "2025-11-13T17:03:53",
+   "date_unixtime": "1763024633",
+   "edited": "2025-11-13T17:03:58",
+   "edited_unixtime": "1763024638",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那怎么办",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那怎么办"
+    }
+   ]
+  },
+  {
+   "id": 244932,
+   "type": "message",
+   "date": "2025-11-13T17:03:59",
+   "date_unixtime": "1763024639",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你可以去线下吃吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你可以去线下吃吗"
+    }
+   ]
+  },
+  {
+   "id": 244933,
+   "type": "message",
+   "date": "2025-11-13T17:04:09",
+   "date_unixtime": "1763024649",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "实在不行去求救",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "实在不行去求救"
+    }
+   ]
+  },
+  {
+   "id": 244934,
+   "type": "message",
+   "date": "2025-11-13T17:04:14",
+   "date_unixtime": "1763024654",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "门口有面馆",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "门口有面馆"
+    }
+   ]
+  },
+  {
+   "id": 244935,
+   "type": "message",
+   "date": "2025-11-13T17:04:20",
+   "date_unixtime": "1763024660",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "也得快30）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "也得快30）"
+    }
+   ]
+  },
+  {
+   "id": 244936,
+   "type": "message",
+   "date": "2025-11-13T17:04:26",
+   "date_unixtime": "1763024666",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "面16",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "面16"
+    }
+   ]
+  },
+  {
+   "id": 244937,
+   "type": "message",
+   "date": "2025-11-13T17:04:35",
+   "date_unixtime": "1763024675",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后想弄点喝的和吃的）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后想弄点喝的和吃的）"
+    }
+   ]
+  },
+  {
+   "id": 244938,
+   "type": "message",
+   "date": "2025-11-13T17:04:43",
+   "date_unixtime": "1763024683",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "太饿了呜呜@",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "太饿了呜呜@"
+    }
+   ]
+  },
+  {
+   "id": 244939,
+   "type": "message",
+   "date": "2025-11-13T17:05:02",
+   "date_unixtime": "1763024702",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以的话我骑车去）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以的话我骑车去）"
+    }
+   ]
+  },
+  {
+   "id": 244940,
+   "type": "message",
+   "date": "2025-11-13T17:05:17",
+   "date_unixtime": "1763024717",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244937,
+   "text": "这个可以不弄吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这个可以不弄吗"
+    }
+   ]
+  },
+  {
+   "id": 244941,
+   "type": "message",
+   "date": "2025-11-13T17:05:23",
+   "date_unixtime": "1763024723",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "都有面的价格了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "都有面的价格了"
+    }
+   ]
+  },
+  {
+   "id": 244942,
+   "type": "message",
+   "date": "2025-11-13T17:06:52",
+   "date_unixtime": "1763024812",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244943,
+   "type": "message",
+   "date": "2025-11-13T17:06:56",
+   "date_unixtime": "1763024816",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那个面不好吃，必须得加东西才行",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那个面不好吃，必须得加东西才行"
+    }
+   ]
+  },
+  {
+   "id": 244944,
+   "type": "message",
+   "date": "2025-11-13T17:07:03",
+   "date_unixtime": "1763024823",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "他们家配菜好吃，面感觉跟淀粉水一样）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他们家配菜好吃，面感觉跟淀粉水一样）"
+    }
+   ]
+  },
+  {
+   "id": 244945,
+   "type": "message",
+   "date": "2025-11-13T17:07:09",
+   "date_unixtime": "1763024829",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 244946,
+   "type": "message",
+   "date": "2025-11-13T17:07:34",
+   "date_unixtime": "1763024854",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (17).webp",
+   "file_name": "sticker.webp",
+   "file_size": 17930,
+   "thumbnail": "stickers/sticker (13).webp_thumb.jpg",
+   "thumbnail_file_size": 10090,
+   "media_type": "sticker",
+   "sticker_emoji": "😌",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 391,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244947,
+   "type": "message",
+   "date": "2025-11-13T17:07:38",
+   "date_unixtime": "1763024858",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "能吃饱吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "能吃饱吧"
+    }
+   ]
+  },
+  {
+   "id": 244948,
+   "type": "message",
+   "date": "2025-11-13T17:07:45",
+   "date_unixtime": "1763024865",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "看看免费辣酱有吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "看看免费辣酱有吗"
+    }
+   ]
+  },
+  {
+   "id": 244949,
+   "type": "message",
+   "date": "2025-11-13T17:08:35",
+   "date_unixtime": "1763024915",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "没有（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没有（）"
+    }
+   ]
+  },
+  {
+   "id": 244950,
+   "type": "message",
+   "date": "2025-11-13T17:08:42",
+   "date_unixtime": "1763024922",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "这是民营小餐馆",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这是民营小餐馆"
+    }
+   ]
+  },
+  {
+   "id": 244951,
+   "type": "message",
+   "date": "2025-11-13T17:08:44",
+   "date_unixtime": "1763024924",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不是连锁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不是连锁"
+    }
+   ]
+  },
+  {
+   "id": 244952,
+   "type": "message",
+   "date": "2025-11-13T17:09:48",
+   "date_unixtime": "1763024988",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那"
+    }
+   ]
+  },
+  {
+   "id": 244953,
+   "type": "message",
+   "date": "2025-11-13T17:09:54",
+   "date_unixtime": "1763024994",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "淡的东西",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "淡的东西"
+    }
+   ]
+  },
+  {
+   "id": 244954,
+   "type": "message",
+   "date": "2025-11-13T17:09:57",
+   "date_unixtime": "1763024997",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "至少能吃饱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "至少能吃饱"
+    }
+   ]
+  },
+  {
+   "id": 244955,
+   "type": "message",
+   "date": "2025-11-13T17:10:01",
+   "date_unixtime": "1763025001",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244956,
+   "type": "message",
+   "date": "2025-11-13T17:10:05",
+   "date_unixtime": "1763025005",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "那你最多能给我多少嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你最多能给我多少嘛"
+    }
+   ]
+  },
+  {
+   "id": 244957,
+   "type": "message",
+   "date": "2025-11-13T17:10:23",
+   "date_unixtime": "1763025023",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "越低越好",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "越低越好"
+    }
+   ]
+  },
+  {
+   "id": 244958,
+   "type": "message",
+   "date": "2025-11-13T17:10:44",
+   "date_unixtime": "1763025044",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244959,
+   "type": "message",
+   "date": "2025-11-13T17:10:49",
+   "date_unixtime": "1763025049",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "（耳朵耷拉）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "（耳朵耷拉）"
+    }
+   ]
+  },
+  {
+   "id": 244960,
+   "type": "message",
+   "date": "2025-11-13T17:14:00",
+   "date_unixtime": "1763025240",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你要不去吃拼好饭吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你要不去吃拼好饭吧"
+    }
+   ]
+  },
+  {
+   "id": 244961,
+   "type": "message",
+   "date": "2025-11-13T17:14:22",
+   "date_unixtime": "1763025262",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我都下楼了（）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我都下楼了（）"
+    }
+   ]
+  },
+  {
+   "id": 244962,
+   "type": "message",
+   "date": "2025-11-13T17:15:02",
+   "date_unixtime": "1763025302",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (18).webp",
+   "file_name": "sticker.webp",
+   "file_size": 32944,
+   "thumbnail": "stickers/sticker (14).webp_thumb.jpg",
+   "thumbnail_file_size": 17912,
+   "media_type": "sticker",
+   "sticker_emoji": "🤨",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244963,
+   "type": "message",
+   "date": "2025-11-13T17:15:22",
+   "date_unixtime": "1763025322",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244964,
+   "type": "message",
+   "date": "2025-11-13T17:15:25",
+   "date_unixtime": "1763025325",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我又不是不还你嘛",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我又不是不还你嘛"
+    }
+   ]
+  },
+  {
+   "id": 244965,
+   "type": "message",
+   "date": "2025-11-13T17:15:28",
+   "date_unixtime": "1763025328",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我吃基础的就16",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我吃基础的就16"
+    }
+   ]
+  },
+  {
+   "id": 244966,
+   "type": "message",
+   "date": "2025-11-13T17:15:32",
+   "date_unixtime": "1763025332",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我找我妈要点吃就行",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我找我妈要点吃就行"
+    }
+   ]
+  },
+  {
+   "id": 244967,
+   "type": "message",
+   "date": "2025-11-13T17:16:14",
+   "date_unixtime": "1763025374",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244966,
+   "text": "那你去吧）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "那你去吧）"
+    }
+   ]
+  },
+  {
+   "id": 244968,
+   "type": "message",
+   "date": "2025-11-13T17:16:23",
+   "date_unixtime": "1763025383",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "我的话",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我的话"
+    }
+   ]
+  },
+  {
+   "id": 244969,
+   "type": "message",
+   "date": "2025-11-13T17:18:24",
+   "date_unixtime": "1763025504",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我妈不会给我那么多的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我妈不会给我那么多的"
+    }
+   ]
+  },
+  {
+   "id": 244970,
+   "type": "message",
+   "date": "2025-11-13T17:18:27",
+   "date_unixtime": "1763025507",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我妈顶多给我四块五",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我妈顶多给我四块五"
+    }
+   ]
+  },
+  {
+   "id": 244972,
+   "type": "message",
+   "date": "2025-11-13T17:19:04",
+   "date_unixtime": "1763025544",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "17",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "17"
+    }
+   ]
+  },
+  {
+   "id": 244973,
+   "type": "message",
+   "date": "2025-11-13T17:19:09",
+   "date_unixtime": "1763025549",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以嘛呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以嘛呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244974,
+   "type": "message",
+   "date": "2025-11-13T17:19:32",
+   "date_unixtime": "1763025572",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (19).webp",
+   "file_name": "sticker.webp",
+   "file_size": 29090,
+   "thumbnail": "stickers/sticker (15).webp_thumb.jpg",
+   "thumbnail_file_size": 15450,
+   "media_type": "sticker",
+   "sticker_emoji": "🙂",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 494,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 244982,
+   "type": "message",
+   "date": "2025-11-13T17:21:06",
+   "date_unixtime": "1763025666",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "17块能给吗呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "17块能给吗呜呜"
+    }
+   ]
+  },
+  {
+   "id": 244993,
+   "type": "message",
+   "date": "2025-11-13T17:22:30",
+   "date_unixtime": "1763025750",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "喵？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "喵？"
+    }
+   ]
+  },
+  {
+   "id": 245000,
+   "type": "message",
+   "date": "2025-11-13T17:23:15",
+   "date_unixtime": "1763025795",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "猫猫呢",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "猫猫呢"
+    }
+   ]
+  },
+  {
+   "id": 245002,
+   "type": "message",
+   "date": "2025-11-13T17:23:38",
+   "date_unixtime": "1763025818",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "怎么不理我了喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "怎么不理我了喵"
+    }
+   ]
+  },
+  {
+   "id": 245004,
+   "type": "message",
+   "date": "2025-11-13T17:23:49",
+   "date_unixtime": "1763025829",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "在",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "在"
+    }
+   ]
+  },
+  {
+   "id": 245006,
+   "type": "message",
+   "date": "2025-11-13T17:23:56",
+   "date_unixtime": "1763025836",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 244982,
+   "text": "还是有点多",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "还是有点多"
+    }
+   ]
+  },
+  {
+   "id": 245007,
+   "type": "message",
+   "date": "2025-11-13T17:24:01",
+   "date_unixtime": "1763025841",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 245008,
+   "type": "message",
+   "date": "2025-11-13T17:24:04",
+   "date_unixtime": "1763025844",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你看你能要到多少父母那",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你看你能要到多少父母那"
+    }
+   ]
+  },
+  {
+   "id": 245009,
+   "type": "message",
+   "date": "2025-11-13T17:24:07",
+   "date_unixtime": "1763025847",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "拼好饭也是17",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "拼好饭也是17"
+    }
+   ]
+  },
+  {
+   "id": 245011,
+   "type": "message",
+   "date": "2025-11-13T17:24:10",
+   "date_unixtime": "1763025850",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 245008,
+   "text": "我妈给了我7块",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我妈给了我7块"
+    }
+   ]
+  },
+  {
+   "id": 245012,
+   "type": "message",
+   "date": "2025-11-13T17:24:17",
+   "date_unixtime": "1763025857",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后我又要了个煎蛋，一共是19",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后我又要了个煎蛋，一共是19"
+    }
+   ]
+  },
+  {
+   "id": 245013,
+   "type": "message",
+   "date": "2025-11-13T17:24:22",
+   "date_unixtime": "1763025862",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你给我12（？）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你给我12（？）"
+    }
+   ]
+  },
+  {
+   "id": 245024,
+   "type": "message",
+   "date": "2025-11-13T17:26:58",
+   "date_unixtime": "1763026018",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "一会你扫老板的就行",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "一会你扫老板的就行"
+    }
+   ]
+  },
+  {
+   "id": 245025,
+   "type": "message",
+   "date": "2025-11-13T17:27:09",
+   "date_unixtime": "1763026029",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我把老板的码发给你",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我把老板的码发给你"
+    }
+   ]
+  },
+  {
+   "id": 245026,
+   "type": "message",
+   "date": "2025-11-13T17:27:37",
+   "date_unixtime": "1763026057",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "）"
+    }
+   ]
+  },
+  {
+   "id": 245027,
+   "type": "message",
+   "date": "2025-11-13T17:27:40",
+   "date_unixtime": "1763026060",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你去吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你去吧"
+    }
+   ]
+  },
+  {
+   "id": 245028,
+   "type": "message",
+   "date": "2025-11-13T17:27:50",
+   "date_unixtime": "1763026070",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "不要信他，我真不是骗子呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不要信他，我真不是骗子呜呜"
+    }
+   ]
+  },
+  {
+   "id": 245029,
+   "type": "message",
+   "date": "2025-11-13T17:27:55",
+   "date_unixtime": "1763026075",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (7).webp",
+   "file_name": "sticker.webp",
+   "file_size": 25160,
+   "thumbnail": "stickers/sticker (3).webp_thumb.jpg",
+   "thumbnail_file_size": 13896,
+   "media_type": "sticker",
+   "sticker_emoji": "😮‍💨",
+   "mime_type": "image/webp",
+   "width": 508,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245030,
+   "type": "message",
+   "date": "2025-11-13T17:28:03",
+   "date_unixtime": "1763026083",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": [
+    {
+     "type": "strikethrough",
+     "text": "如果可以的话，再给我3块钱买个茉莉蜜茶）"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "strikethrough",
+     "text": "如果可以的话，再给我3块钱买个茉莉蜜茶）"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 245031,
+   "type": "message",
+   "date": "2025-11-13T17:28:09",
+   "date_unixtime": "1763026089",
+   "edited": "2025-11-13T17:28:17",
+   "edited_unixtime": "1763026097",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "会还的喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "会还的喵"
+    }
+   ]
+  },
+  {
+   "id": 245032,
+   "type": "message",
+   "date": "2025-11-13T17:28:22",
+   "date_unixtime": "1763026102",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "他说我是网络乞丐，没问题，但我绝对不是骗子",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "他说我是网络乞丐，没问题，但我绝对不是骗子"
+    }
+   ]
+  },
+  {
+   "id": 245033,
+   "type": "message",
+   "date": "2025-11-13T17:28:23",
+   "date_unixtime": "1763026103",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "呜呜",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "呜呜"
+    }
+   ]
+  },
+  {
+   "id": 245034,
+   "type": "message",
+   "date": "2025-11-13T17:28:34",
+   "date_unixtime": "1763026114",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (19).webp",
+   "file_name": "sticker.webp",
+   "file_size": 29090,
+   "thumbnail": "stickers/sticker (15).webp_thumb.jpg",
+   "thumbnail_file_size": 15450,
+   "media_type": "sticker",
+   "sticker_emoji": "🙂",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 494,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245035,
+   "type": "message",
+   "date": "2025-11-13T17:28:43",
+   "date_unixtime": "1763026123",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "你去吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你去吧"
+    }
+   ]
+  },
+  {
+   "id": 245047,
+   "type": "message",
+   "date": "2025-11-13T17:34:47",
+   "date_unixtime": "1763026487",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "12+3",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "12+3"
+    }
+   ]
+  },
+  {
+   "id": 245049,
+   "type": "message",
+   "date": "2025-11-13T17:34:59",
+   "date_unixtime": "1763026499",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我也不确定你会不会给",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我也不确定你会不会给"
+    }
+   ]
+  },
+  {
+   "id": 245050,
+   "type": "message",
+   "date": "2025-11-13T17:35:01",
+   "date_unixtime": "1763026501",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我怕你信他们",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我怕你信他们"
+    }
+   ]
+  },
+  {
+   "id": 245051,
+   "type": "message",
+   "date": "2025-11-13T17:35:07",
+   "date_unixtime": "1763026507",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "但是我真的保证，我绝对不骗人",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但是我真的保证，我绝对不骗人"
+    }
+   ]
+  },
+  {
+   "id": 245053,
+   "type": "message",
+   "date": "2025-11-13T17:35:21",
+   "date_unixtime": "1763026521",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我现在把商家的码发过来",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我现在把商家的码发过来"
+    }
+   ]
+  },
+  {
+   "id": 245054,
+   "type": "message",
+   "date": "2025-11-13T17:35:27",
+   "date_unixtime": "1763026527",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你要信我，你就把钱付了，你要是不信我就算了，我看看能不能找我爸再要一点",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你要信我，你就把钱付了，你要是不信我就算了，我看看能不能找我爸再要一点"
+    }
+   ]
+  },
+  {
+   "id": 245055,
+   "type": "message",
+   "date": "2025-11-13T17:35:38",
+   "date_unixtime": "1763026538",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (19).webp",
+   "file_name": "sticker.webp",
+   "file_size": 29090,
+   "thumbnail": "stickers/sticker (15).webp_thumb.jpg",
+   "thumbnail_file_size": 15450,
+   "media_type": "sticker",
+   "sticker_emoji": "🙂",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 494,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245056,
+   "type": "message",
+   "date": "2025-11-13T17:35:56",
+   "date_unixtime": "1763026556",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_7@13-11-2025_17-35-56.jpg",
+   "photo_file_size": 119423,
+   "width": 720,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245057,
+   "type": "message",
+   "date": "2025-11-13T17:36:04",
+   "date_unixtime": "1763026564",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_8@13-11-2025_17-36-04.jpg",
+   "photo_file_size": 105953,
+   "width": 720,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245058,
+   "type": "message",
+   "date": "2025-11-13T17:37:27",
+   "date_unixtime": "1763026647",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (14).webp",
+   "file_name": "sticker.webp",
+   "file_size": 20998,
+   "thumbnail": "stickers/sticker (10).webp_thumb.jpg",
+   "thumbnail_file_size": 13004,
+   "media_type": "sticker",
+   "sticker_emoji": "🫥",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245059,
+   "type": "message",
+   "date": "2025-11-13T17:37:34",
+   "date_unixtime": "1763026654",
+   "edited": "2025-11-13T17:37:38",
+   "edited_unixtime": "1763026658",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "可以吗（？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以吗（？"
+    }
+   ]
+  },
+  {
+   "id": 245060,
+   "type": "message",
+   "date": "2025-11-13T17:37:37",
+   "date_unixtime": "1763026657",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "等一会吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "等一会吧"
+    }
+   ]
+  },
+  {
+   "id": 245061,
+   "type": "message",
+   "date": "2025-11-13T17:37:41",
+   "date_unixtime": "1763026661",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "我去找人",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我去找人"
+    }
+   ]
+  },
+  {
+   "id": 245062,
+   "type": "message",
+   "date": "2025-11-13T17:37:42",
+   "date_unixtime": "1763026662",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "要多久（",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "要多久（"
+    }
+   ]
+  },
+  {
+   "id": 245063,
+   "type": "message",
+   "date": "2025-11-13T17:37:46",
+   "date_unixtime": "1763026666",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "reply_to_message_id": 245061,
+   "text": "找谁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "找谁"
+    }
+   ]
+  },
+  {
+   "id": 245064,
+   "type": "message",
+   "date": "2025-11-13T17:39:50",
+   "date_unixtime": "1763026790",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "好了吗喵",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "好了吗喵"
+    }
+   ]
+  },
+  {
+   "id": 245065,
+   "type": "message",
+   "date": "2025-11-13T17:39:54",
+   "date_unixtime": "1763026794",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我吃完了）",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我吃完了）"
+    }
+   ]
+  },
+  {
+   "id": 245066,
+   "type": "message",
+   "date": "2025-11-13T17:40:07",
+   "date_unixtime": "1763026807",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "找人帮你付",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "找人帮你付"
+    }
+   ]
+  },
+  {
+   "id": 245067,
+   "type": "message",
+   "date": "2025-11-13T17:40:58",
+   "date_unixtime": "1763026858",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "啊？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "啊？"
+    }
+   ]
+  },
+  {
+   "id": 245068,
+   "type": "message",
+   "date": "2025-11-13T17:41:01",
+   "date_unixtime": "1763026861",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你没钱吗",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你没钱吗"
+    }
+   ]
+  },
+  {
+   "id": 245069,
+   "type": "message",
+   "date": "2025-11-13T17:41:02",
+   "date_unixtime": "1763026862",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "....？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "....？"
+    }
+   ]
+  },
+  {
+   "id": 245070,
+   "type": "message",
+   "date": "2025-11-13T17:41:18",
+   "date_unixtime": "1763026878",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "不过他可能付款很慢",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不过他可能付款很慢"
+    }
+   ]
+  },
+  {
+   "id": 245071,
+   "type": "message",
+   "date": "2025-11-13T17:41:26",
+   "date_unixtime": "1763026886",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "给你看一下他的速度",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "给你看一下他的速度"
+    }
+   ]
+  },
+  {
+   "id": 245072,
+   "type": "message",
+   "date": "2025-11-13T17:41:38",
+   "date_unixtime": "1763026898",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你要干啥",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你要干啥"
+    }
+   ]
+  },
+  {
+   "id": 245073,
+   "type": "message",
+   "date": "2025-11-13T17:41:46",
+   "date_unixtime": "1763026906",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你要把我开了？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你要把我开了？"
+    }
+   ]
+  },
+  {
+   "id": 245075,
+   "type": "message",
+   "date": "2025-11-13T17:42:02",
+   "date_unixtime": "1763026922",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 245073,
+   "text": "不是",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "不是"
+    }
+   ]
+  },
+  {
+   "id": 245076,
+   "type": "message",
+   "date": "2025-11-13T17:42:31",
+   "date_unixtime": "1763026951",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "？？",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "？？"
+    }
+   ]
+  },
+  {
+   "id": 245077,
+   "type": "message",
+   "date": "2025-11-13T17:42:38",
+   "date_unixtime": "1763026958",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "这么久",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这么久"
+    }
+   ]
+  },
+  {
+   "id": 245078,
+   "type": "message",
+   "date": "2025-11-13T17:42:45",
+   "date_unixtime": "1763026965",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我还不如找我妈要呢",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我还不如找我妈要呢"
+    }
+   ]
+  },
+  {
+   "id": 245079,
+   "type": "message",
+   "date": "2025-11-13T17:42:55",
+   "date_unixtime": "1763026975",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "没办法",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没办法"
+    }
+   ]
+  },
+  {
+   "id": 245080,
+   "type": "message",
+   "date": "2025-11-13T17:43:03",
+   "date_unixtime": "1763026983",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "我得从usd划转",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我得从usd划转"
+    }
+   ]
+  },
+  {
+   "id": 245081,
+   "type": "message",
+   "date": "2025-11-13T17:43:44",
+   "date_unixtime": "1763027024",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "QAQ",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "QAQ"
+    }
+   ]
+  },
+  {
+   "id": 245082,
+   "type": "message",
+   "date": "2025-11-13T17:45:07",
+   "date_unixtime": "1763027107",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "没办法（",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "没办法（"
+    }
+   ]
+  },
+  {
+   "id": 245083,
+   "type": "message",
+   "date": "2025-11-13T17:45:12",
+   "date_unixtime": "1763027112",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "我没什么cny的",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我没什么cny的"
+    }
+   ]
+  },
+  {
+   "id": 245084,
+   "type": "message",
+   "date": "2025-11-13T17:49:30",
+   "date_unixtime": "1763027370",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我找别人帮我付了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我找别人帮我付了"
+    }
+   ]
+  },
+  {
+   "id": 245085,
+   "type": "message",
+   "date": "2025-11-13T17:49:32",
+   "date_unixtime": "1763027372",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "...",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "..."
+    }
+   ]
+  },
+  {
+   "id": 245086,
+   "type": "message",
+   "date": "2025-11-13T17:49:39",
+   "date_unixtime": "1763027379",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "你早说好了，我就不找你了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "你早说好了，我就不找你了"
+    }
+   ]
+  },
+  {
+   "id": 245087,
+   "type": "message",
+   "date": "2025-11-13T17:49:47",
+   "date_unixtime": "1763027387",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "别人帮我垫了，明天记得给他付就行",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "别人帮我垫了，明天记得给他付就行"
+    }
+   ]
+  },
+  {
+   "id": 245088,
+   "type": "message",
+   "date": "2025-11-13T17:50:30",
+   "date_unixtime": "1763027430",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我付了5块",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我付了5块"
+    }
+   ]
+  },
+  {
+   "id": 245089,
+   "type": "message",
+   "date": "2025-11-13T17:50:49",
+   "date_unixtime": "1763027449",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "加饮料的话还欠老板17块",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "加饮料的话还欠老板17块"
+    }
+   ]
+  },
+  {
+   "id": 245090,
+   "type": "message",
+   "date": "2025-11-13T17:51:02",
+   "date_unixtime": "1763027462",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (14).webp",
+   "file_name": "sticker.webp",
+   "file_size": 20998,
+   "thumbnail": "stickers/sticker (10).webp_thumb.jpg",
+   "thumbnail_file_size": 13004,
+   "media_type": "sticker",
+   "sticker_emoji": "🫥",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245091,
+   "type": "message",
+   "date": "2025-11-13T17:51:03",
+   "date_unixtime": "1763027463",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我说了你只用付15吧",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我说了你只用付15吧"
+    }
+   ]
+  },
+  {
+   "id": 245092,
+   "type": "message",
+   "date": "2025-11-13T17:51:08",
+   "date_unixtime": "1763027468",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "过会把你码给我，我给你转2块钱，到时候你钱到了付给老板就行",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "过会把你码给我，我给你转2块钱，到时候你钱到了付给老板就行"
+    }
+   ]
+  },
+  {
+   "id": 245093,
+   "type": "message",
+   "date": "2025-11-13T17:51:35",
+   "date_unixtime": "1763027495",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "reply_to_message_id": 245092,
+   "text": "但我只收u",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "但我只收u"
+    }
+   ]
+  },
+  {
+   "id": 245094,
+   "type": "message",
+   "date": "2025-11-13T17:51:37",
+   "date_unixtime": "1763027497",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (14).webp",
+   "file_name": "sticker.webp",
+   "file_size": 20998,
+   "thumbnail": "stickers/sticker (10).webp_thumb.jpg",
+   "thumbnail_file_size": 13004,
+   "media_type": "sticker",
+   "sticker_emoji": "🫥",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245095,
+   "type": "message",
+   "date": "2025-11-13T17:51:51",
+   "date_unixtime": "1763027511",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "text": "可以付r 但不收r",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "可以付r 但不收r"
+    }
+   ]
+  },
+  {
+   "id": 245096,
+   "type": "message",
+   "date": "2025-11-13T17:52:02",
+   "date_unixtime": "1763027522",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "6",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "6"
+    }
+   ]
+  },
+  {
+   "id": 245097,
+   "type": "message",
+   "date": "2025-11-13T17:52:09",
+   "date_unixtime": "1763027529",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "我没u",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "我没u"
+    }
+   ]
+  },
+  {
+   "id": 245098,
+   "type": "message",
+   "date": "2025-11-13T17:52:15",
+   "date_unixtime": "1763027535",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "充u至少10块钱",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "充u至少10块钱"
+    }
+   ]
+  },
+  {
+   "id": 245099,
+   "type": "message",
+   "date": "2025-11-13T17:53:20",
+   "date_unixtime": "1763027600",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "photo": "photos/photo_9@13-11-2025_17-53-20.jpg",
+   "photo_file_size": 41890,
+   "width": 576,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245100,
+   "type": "message",
+   "date": "2025-11-13T17:53:24",
+   "date_unixtime": "1763027604",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "现在微信和支付宝也不让用这个付钱了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "现在微信和支付宝也不让用这个付钱了"
+    }
+   ]
+  },
+  {
+   "id": 245101,
+   "type": "message",
+   "date": "2025-11-13T17:53:32",
+   "date_unixtime": "1763027612",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "支付宝会提示不支持该卡",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "支付宝会提示不支持该卡"
+    }
+   ]
+  },
+  {
+   "id": 245102,
+   "type": "message",
+   "date": "2025-11-13T17:53:38",
+   "date_unixtime": "1763027618",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "微信会强制自动解绑，在绑定时说也不支持该卡",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "微信会强制自动解绑，在绑定时说也不支持该卡"
+    }
+   ]
+  },
+  {
+   "id": 245103,
+   "type": "message",
+   "date": "2025-11-13T17:56:27",
+   "date_unixtime": "1763027787",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (14).webp",
+   "file_name": "sticker.webp",
+   "file_size": 20998,
+   "thumbnail": "stickers/sticker (10).webp_thumb.jpg",
+   "thumbnail_file_size": 13004,
+   "media_type": "sticker",
+   "sticker_emoji": "🫥",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 245104,
+   "type": "message",
+   "date": "2025-11-13T17:56:47",
+   "date_unixtime": "1763027807",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "去年的时候还能用",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "去年的时候还能用"
+    }
+   ]
+  },
+  {
+   "id": 245105,
+   "type": "message",
+   "date": "2025-11-13T17:56:50",
+   "date_unixtime": "1763027810",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "就今年初也能用",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "就今年初也能用"
+    }
+   ]
+  },
+  {
+   "id": 245106,
+   "type": "message",
+   "date": "2025-11-13T17:56:54",
+   "date_unixtime": "1763027814",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "好像今年八月九的时候就不让付了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "好像今年八月九的时候就不让付了"
+    }
+   ]
+  },
+  {
+   "id": 245107,
+   "type": "message",
+   "date": "2025-11-13T17:56:59",
+   "date_unixtime": "1763027819",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "有一次我买了一瓶饮料，付款的时候拒付",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "有一次我买了一瓶饮料，付款的时候拒付"
+    }
+   ]
+  },
+  {
+   "id": 245108,
+   "type": "message",
+   "date": "2025-11-13T17:57:04",
+   "date_unixtime": "1763027824",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后支付宝弹安全提示给我账户也限制了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后支付宝弹安全提示给我账户也限制了"
+    }
+   ]
+  },
+  {
+   "id": 245109,
+   "type": "message",
+   "date": "2025-11-13T17:57:08",
+   "date_unixtime": "1763027828",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后问客服说不能用这个卡了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后问客服说不能用这个卡了"
+    }
+   ]
+  },
+  {
+   "id": 245110,
+   "type": "message",
+   "date": "2025-11-13T17:57:14",
+   "date_unixtime": "1763027834",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "然后就没办法了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "然后就没办法了"
+    }
+   ]
+  },
+  {
+   "id": 245111,
+   "type": "message",
+   "date": "2025-11-13T17:57:25",
+   "date_unixtime": "1763027845",
+   "from": "TIME NEX",
+   "from_id": "user5096355586",
+   "text": "这个卡只能用来买gpt了",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "这个卡只能用来买gpt了"
+    }
+   ]
+  },
+  {
+   "id": 245112,
+   "type": "message",
+   "date": "2025-11-13T18:11:37",
+   "date_unixtime": "1763028697",
+   "from": "NekoCurit",
+   "from_id": "user6657461989",
+   "file": "stickers/sticker (13).webp",
+   "file_name": "sticker.webp",
+   "file_size": 24394,
+   "thumbnail": "stickers/sticker (9).webp_thumb.jpg",
+   "thumbnail_file_size": 14174,
+   "media_type": "sticker",
+   "sticker_emoji": "💖",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 386,
+   "text": "",
+   "text_entities": []
+  }
+ ]
+}

@@ -54,12 +54,17 @@
     text-decoration: none;
     opacity: 0.9;
   }
-</style>
+  /* Day mode colors */
+  .day-title { color: #BAFFB9EE; }
+  .day-text { color: #BA8BFFFF; }/* Night mode default */ body.dark .frame h1, body.dark .frame p, body.dark .frame div.list a:not(a) { color: #ffffff; }
+
+.clickable { cursor: pointer; } </style>
+
 </head>
 <body>
 <div class="frame" id="frame">
-  <h1>Jia の 不好的地方</h1>
-  <p class="subtitle">这些事件容易侵犯眼睛和侮辱你的智商和大脑....</p>
+  <h1 class="clickable" id="title">Jia の 不好的地方</h1>
+  <p class="subtitle clickable"">这些事件容易侵犯眼睛和侮辱你的智商和大脑....</p>
   <div class="divider" id="divider"></div>
   <div class="list" id="list"></div>
 </div><script>
@@ -74,6 +79,28 @@
 
   applyTheme();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+
+  function applyTextColors() {
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const title = document.getElementById('title');
+    const subtitle = document.querySelector('.subtitle');
+
+    // Day mode default
+    if (!isDark) {
+      title.classList.add('day-title');
+      subtitle.classList.add('day-text');
+    }
+
+    // Add click toggling (links excluded)
+    [title, subtitle].forEach(el => {
+      el.addEventListener('click', () => {
+        el.classList.toggle('day-title');
+        el.classList.toggle('day-text');
+      });
+    });
+  }
+
+  applyTextColors();
 
   async function loadFiles() {
     const list = document.getElementById('list');
