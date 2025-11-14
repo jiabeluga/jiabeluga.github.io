@@ -16,6 +16,9 @@
     background: var(--bg-light);
     transition: background 0.3s ease;
     font-family: "Microsoft Yahei", sans-serif;
+    background-size: cover;
+    background-position: center;
+  : "Microsoft Yahei", sans-serif;
   }
   .frame {
     width: calc(100% - 6vw);
@@ -68,11 +71,35 @@
   <div class="divider" id="divider"></div>
   <div class="list" id="list"></div>
 </div><script>
-  function applyTheme() {
+  function function applyTheme() {
+    const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const frame = document.getElementById('frame');
+    const divider = document.getElementById('divider');
+
+    if (isDark) {
+      document.body.style.background = '#000000';
+      frame.style.boxShadow = 'none';
+      frame.style.border = '3px solid #000000';
+      divider.style.background = '#000000';
+
+      // dark mode text = black
+      document.querySelectorAll('#frame *:not(a)').forEach(e => {
+        e.style.color = '#000000';
+      });
+    } else {
+      // Day mode random background
+      const idx = Math.floor(Math.random() * 5) + 1;
+      document.body.style.background = `url('https://jiabeluga.github.io/Assets/Nya000${idx}.jpg')`;
+
+      frame.style.border = 'none';
+      frame.style.boxShadow = '0 0 20px rgba(0,0,0,0.4)';
+      divider.style.background = '#000000';
+    }
+  }() {
     const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     document.body.style.background = isDark ? 'var(--bg-dark)' : 'var(--bg-light)';
     const frame = document.getElementById('frame');
-    frame.style.border = isDark ? '3px solid var(--frame-light)' : '3px solid var(--frame-dark)';
+    // removed old border logic(--frame-light)' : '3px solid var(--frame-dark)';
     const divider = document.getElementById('divider');
     divider.style.background = isDark ? '#ffffff' : '#000000';
   }
@@ -80,7 +107,25 @@
   applyTheme();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
 
-  function applyTextColors() {
+  function function applyTextColors() {
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const title = document.getElementById('title');
+    const subtitle = document.querySelector('.subtitle');
+
+    if (!isDark) {
+      title.classList.add('day-title');
+      subtitle.classList.add('day-text');
+    }
+
+    [title, subtitle].forEach(el => {
+      el.addEventListener('click', () => {
+        if (!window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          el.classList.toggle('day-title');
+          el.classList.toggle('day-text');
+        }
+      });
+    });
+  }() {
     const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const title = document.getElementById('title');
     const subtitle = document.querySelector('.subtitle');
