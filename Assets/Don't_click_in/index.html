@@ -398,7 +398,31 @@
             }
         }
 
-        // 创建树形结构HTML（仅第一层可展开）
+        // 检查文件夹是否包含index.html
+        async function hasIndexHtml(path) {
+            try {
+                const encodedPath = path.split('/').map(p => encodeURIComponent(p)).join('/');
+                const response = await fetch(
+                    `https://api.github.com/repos/jiabeluga/jiabeluga.github.io/contents/${encodedPath}`,
+                    {
+                        headers: {
+                            'Accept': 'application/vnd.github.v3+json',
+                        },
+                    }
+                );
+
+                if (!response.ok) {
+                    return false;
+                }
+
+                const data = await response.json();
+                return data.some(item => item.name === 'index.html');
+            } catch {
+                return false;
+            }
+        }
+
+        // 创建树形结构HTML
         function createTreeHTML(items, parentPath = '', level = 0) {
             let html = '';
 
@@ -408,7 +432,7 @@
                 const prefix = level > 0 ? (isLast ? '└' : '├') : '';
                 const itemId = `item-${newPath.replace(/\//g, '-')}`;
                 
-                // 只有第一层的文件夹才可展开
+                // 只有第一层的文件夹才可能展开
                 const isExpandable = level === 0 && item.type === 'dir';
 
                 html += `<div class="tree-item" id="${itemId}">`;
@@ -456,23 +480,32 @@
                 const childrenDiv = document.getElementById(`children-${itemId}`);
 
                 if (type === 'dir' && expandable) {
-                    // 仅第一层文件夹可展开
-                    const isExpanded = childrenDiv && childrenDiv.style.display !== 'none';
+                    // 第一层文件夹：检查是否有index.html
+                    const hasIndex = await hasIndexHtml(`Assets/Don't_click_in/${path}`);
                     
-                    if (isExpanded) {
-                        childrenDiv.style.display = 'none';
-                        const icon = button.querySelector('.icon');
-                        if (icon) icon.classList.remove('rotated');
+                    if (hasIndex) {
+                        // 有index.html，直接跳转
+                        const url = `https://jiabeluga.github.io/Assets/Don't_click_in/${path}`;
+                        window.location.href = url;
                     } else {
-                        if (childrenDiv && childrenDiv.innerHTML === '') {
-                            // 首次加载子项
-                            const subItems = await fetchSubItems(`Assets/Don't_click_in/${path}`);
-                            childrenDiv.innerHTML = createTreeHTML(subItems, path, level + 1);
-                            setupTreeInteraction();
+                        // 没有index.html，展开显示子文件夹
+                        const isExpanded = childrenDiv && childrenDiv.style.display !== 'none';
+                        
+                        if (isExpanded) {
+                            childrenDiv.style.display = 'none';
+                            const icon = button.querySelector('.icon');
+                            if (icon) icon.classList.remove('rotated');
+                        } else {
+                            if (childrenDiv && childrenDiv.innerHTML === '') {
+                                // 首次加载子项
+                                const subItems = await fetchSubItems(`Assets/Don't_click_in/${path}`);
+                                childrenDiv.innerHTML = createTreeHTML(subItems, path, level + 1);
+                                setupTreeInteraction();
+                            }
+                            if (childrenDiv) childrenDiv.style.display = 'block';
+                            const icon = button.querySelector('.icon');
+                            if (icon) icon.classList.add('rotated');
                         }
-                        if (childrenDiv) childrenDiv.style.display = 'block';
-                        const icon = button.querySelector('.icon');
-                        if (icon) icon.classList.add('rotated');
                     }
                 } else if (type === 'dir') {
                     // 非第一层文件夹直接跳转
