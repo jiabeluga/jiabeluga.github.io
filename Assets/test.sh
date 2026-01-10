@@ -1,23 +1,12 @@
-systemctl stop systemd-resolved
-
-ifconfig
-ip route
-sleep 10
-
-rm -f /etc/resolv.conf
-touch /etc/resolv.conf
-echo "nameserver 223.5.5.5" > /etc/resolv.conf
-echo "nameserver 114.114.114.114" >> /etc/resolv.conf
-
-    swapon /dev/sda2
+swapon /dev/sda2
     
-    mount -o compress=zstd,subvol=@ /dev/sda3 /mnt
+mount -o compress=zstd,subvol=@ /dev/sda3 /mnt
     
-    mount -o compress=zstd,subvol=@home /dev/sda3 /mnt/home
+mount -o compress=zstd,subvol=@home /dev/sda3 /mnt/home
     
-    mount /dev/sda1 /mnt/boot
+mount /dev/sda1 /mnt/boot
     
-    timedatectl set-ntp true
+timedatectl set-ntp true
     
-    lsblk
+lsblk
     
