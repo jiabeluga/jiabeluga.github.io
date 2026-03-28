@@ -29,128 +29,25 @@
             box-sizing: border-box;
         }
 
-        html, body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
             font-family: 'CustomFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./Assets/wallpaper.jpg') center/cover fixed;
             color: var(--text-color);
             line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* 移动端样式 */
-        body.mobile-view {
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./Assets/wallpaper.jpg') center/cover fixed;
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
-        }
-
-        /* PC端样式 */
-        body.pc-view {
-            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('./Assets/pc_wallpaper.jpg') center/cover fixed;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            min-height: 100vh;
-        }
-
-        /* 镜子页面背景 */
-        body.mirror-view {
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
         }
 
         .handwritten {
             font-family: 'ZCOOL KuaiLe', cursive;
         }
 
-        /* 移动端容器 */
-        .mobile-container {
+        .container {
             width: 100%;
             max-width: 500px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        /* PC端容器 */
-        .pc-wrapper {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .pc-banner {
-            width: 100%;
-            max-width: 1200px;
-            height: 300px;
-            border-radius: var(--radius);
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-        }
-
-        .pc-banner img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: var(--radius);
-        }
-
-        .typewriter-container {
-            position: absolute;
-            z-index: 2;
-            text-align: center;
-            width: 90%;
-            pointer-events: none;
-        }
-
-        #typewriter, #typewriter-pc {
-            color: #FF34FF;
-            font-weight: bold;
-            font-size: 1.2rem;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-            min-height: 1.5em;
-        }
-
-        .pc-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .pc-left {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .pc-right {
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -165,6 +62,44 @@
             width: 100%;
             transition: transform 0.2s;
             backdrop-filter: blur(10px);
+        }
+
+        /* 顶部视频卡片 - 无外框 */
+        .video-card {
+            padding: 0;
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            border: none;
+            box-shadow: none;
+            border-radius: var(--radius);
+        }
+
+        .video-card video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--radius);
+        }
+
+        .typewriter-container {
+            position: absolute;
+            z-index: 2;
+            text-align: center;
+            width: 90%;
+            pointer-events: none;
+        }
+
+        #typewriter {
+            color: #FF34FF;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            min-height: 1.5em;
         }
 
         /* 个人信息卡片 */
@@ -383,198 +318,8 @@
             z-index: 9999;
         }
 
-        /* 镜子页面样式 */
-        .mirror-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-            max-width: 600px;
-            width: 100%;
-        }
-
-        .hitokoto-box {
-            text-align: center;
-            color: white;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-        }
-
-        .hitokoto-text {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-            line-height: 1.5;
-        }
-
-        .hitokoto-from {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        .mirror-profile {
-            text-align: center;
-            color: white;
-        }
-
-        .mirror-avatar {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin: 0 auto 15px;
-            border: 3px solid var(--primary-color);
-            object-fit: cover;
-        }
-
-        .mirror-text {
-            font-size: 0.9rem;
-            margin: 10px 0;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-        }
-
-        .mirror-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .mirror-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: white;
-            font-size: 24px;
-            transition: all 0.3s;
-            cursor: pointer;
-            border: none;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-
-        .mirror-btn:hover {
-            transform: scale(1.1);
-        }
-
-        /* 镜子盒子 */
-        .mirror-box {
-            background: var(--card-bg);
-            border-radius: var(--radius);
-            border: var(--card-border);
-            box-shadow: var(--card-shadow);
-            padding: 30px;
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            cursor: pointer;
-            user-select: none;
-            position: relative;
-            overflow: hidden;
-            min-height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .mirror-box-text {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: var(--text-color);
-            transition: all 0.5s ease-out;
-            position: absolute;
-        }
-
-        /* 便利贴样式 */
-        .sticky-note {
-            position: fixed;
-            width: 94px;
-            height: 109px;
-            background-image: url('./Assets/sticky_note.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            cursor: grab;
-            z-index: 999;
-            user-select: none;
-            display: none;
-        }
-
-        .sticky-note:active {
-            cursor: grabbing;
-        }
-
-        .string {
-            position: fixed;
-            width: 2px;
-            background-color: #FFD1F8FF;
-            z-index: 998;
-            display: none;
-            transform-origin: top;
-        }
-
-        /* 黑色幕布 */
-        .curtain {
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            width: 50%;
-            background-color: black;
-            z-index: 10000;
-            display: none;
-        }
-
-        .curtain-left {
-            left: 0;
-        }
-
-        .curtain-right {
-            right: 0;
-        }
-
-        /* PC端隐藏技能 */
-        .pc-view .skill-item,
-        .pc-view .divider {
-            display: none;
-        }
-
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .mobile-container {
-                display: flex;
-            }
-            .pc-wrapper {
-                display: none;
-            }
-            .pc-container {
-                display: none;
-            }
-            .mirror-box {
-                display: none;
-            }
-        }
-
-        @media (min-width: 769px) {
-            .mobile-container {
-                display: none;
-            }
-            .pc-wrapper {
-                display: flex;
-            }
-            .pc-container {
-                display: grid;
-            }
-            .mirror-box {
-                display: flex;
-            }
-        }
-
         @media (max-width: 480px) {
-            .mobile-container {
+            .container {
                 gap: 15px;
             }
             .card {
@@ -591,22 +336,14 @@
         }
     </style>
 </head>
-<body class="mobile-view">
+<body>
+
     <!-- 背景音乐 -->
     <audio id="bgMusic" loop style="display: none;">
         <source src="./Assets/test.mp3" type="audio/mpeg">
     </audio>
 
-    <!-- 黑色幕布 -->
-    <div class="curtain curtain-left"></div>
-    <div class="curtain curtain-right"></div>
-
-    <!-- 便利贴 -->
-    <div class="sticky-note" id="stickyNote"></div>
-    <div class="string" id="string"></div>
-
-    <!-- 移动端容器 -->
-    <div class="mobile-container" id="mobileContainer">
+    <div class="container">
         <!-- 顶部视频 -->
         <div class="card video-card">
             <video src="./Assets/welcome.mp4" autoplay loop muted playsinline></video>
@@ -705,123 +442,6 @@
         </div>
     </div>
 
-    <!-- PC端容器 -->
-    <div class="pc-wrapper" id="pcWrapper">
-        <!-- 顶部 Banner -->
-        <div class="pc-banner" id="pcBanner">
-            <img id="bannerImg" src="./Assets/pc_1.jpg" alt="Banner">
-            <div class="typewriter-container">
-                <div id="typewriter-pc"></div>
-            </div>
-        </div>
-
-        <!-- 主容器 -->
-        <div class="pc-container">
-            <div class="pc-left">
-                <!-- 个人资料 -->
-                <div class="card profile-card">
-                    <img src="./Assets/head_portrait.jpg" alt="Avatar" class="avatar">
-                    <div class="name">JiaBeluga</div>
-                    <div class="signature">𝑯𝒂𝒕𝒔𝒖𝒏𝒆 𝑴𝒊𝒌𝒖</div>
-                    <div class="btn-group">
-                        <a href="https://b23.tv/vmMJNKW" class="icon-btn bilibili-btn external-link" target="_blank" title="Bilibili" style="background-image: url('./Assets/Bilibili.png'); background-size: 65%; background-color: transparent;"></a>
-                        <a href="https://github.com/jiabeluga" class="icon-btn github-btn external-link" target="_blank" title="GitHub">
-                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                        </a>
-                        <button class="icon-btn email-btn" onclick="showEmail()" title="联系邮箱">
-                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- 公告 -->
-                <div class="card">
-                    <div class="section-title">📅 公告</div>
-                    <p>以后只有周末可以活跃了</p>
-                </div>
-            </div>
-
-            <div class="pc-right">
-                <!-- 社交媒体 -->
-                <div class="card">
-                    <div class="section-title">📁 社交媒体</div>
-                    <ul class="social-list">
-                        <li>· <a href="https://x.com/Ms_Luo_Mr_huang?s=09" class="external-link" target="_blank">Twitter</a></li>
-                        <li>· <a href="https://t.me/AllAUAndInksans" class="external-link" target="_blank">Telegram</a></li>
-                        <li>· <span style="color: #b8860b; font-weight: 500;">QQ</span> 2669604540</li>
-                        <li>· <span style="color: #b8860b; font-weight: 500;">Roblox</span> usrname: bulega39 or GlitchZapTurbo_YT</li>
-                    </ul>
-                </div>
-
-                <!-- 站点信息 -->
-                <div class="card">
-                    <div class="section-title">📈 站点信息</div>
-                    <div class="status-item">
-                        <span>运行状态</span>
-                        <span>❌ 濒死</span>
-                    </div>
-                    <div class="status-item">
-                        <span>站长状态</span>
-                        <span>❌ 濒死</span>
-                    </div>
-                    <div class="status-item">
-                        <span>服务运行状态</span>
-                        <span>🟢 可能活着?</span>
-                    </div>
-                </div>
-
-                <!-- 关于 & 技能 -->
-                <div class="card">
-                    <h2 class="miku-title handwritten">关于 Beluga</h2>
-                    <div class="about-text">
-                        " 我不好！这里不是Beluga！是目前不想上学的☝✌💧❄☜☼ "
-                        " 由于想法非常奇怪猎奇，所以说看到我说了发了任何奇奇怪怪的东西，绝对(不)是我干的( "
-                        " 喜欢的事数不清，最喜欢的就是审判![开终结眼] "
-                        " 目前可以属于某个组织 "
-                        " 骚扰请来QQ/Telegram/发邮件(这对吗) "
-                    </div>
-                </div>
-
-                <!-- 镜子盒子 -->
-                <div class="mirror-box" id="mirrorBox">
-                    <div class="mirror-box-text" id="mirrorBoxText">这是镜子</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 镜子页面容器 -->
-    <div class="mirror-container" id="mirrorContainer" style="display: none;">
-        <!-- 一言内容 -->
-        <div class="hitokoto-box">
-            <div class="hitokoto-text" id="hitokotoText">Loading...</div>
-            <div class="hitokoto-from" id="hitokotoFrom"></div>
-        </div>
-
-        <!-- 头像和按钮 -->
-        <div class="mirror-profile">
-            <img src="./Assets/head_portrait.jpg" alt="Avatar" class="mirror-avatar">
-            <div class="mirror-text">🕈☜☹👍⚐💣☜ 👌✌👍😐</div>
-            <div class="mirror-buttons">
-                <a href="https://b23.tv/vmMJNKW" class="mirror-btn bilibili-btn external-link" target="_blank" title="Bilibili" style="background-image: url('./Assets/Bilibili.png'); background-size: 65%; background-color: transparent;"></a>
-                <a href="https://github.com/jiabeluga" class="mirror-btn github-btn external-link" target="_blank" title="GitHub">
-                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                </a>
-                <button class="mirror-btn email-btn" onclick="showEmail()" title="联系邮箱">
-                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
-
     <!-- 邮箱弹窗 -->
     <div class="modal-overlay" id="emailModal" onclick="hideEmail()">
         <div class="modal" onclick="event.stopPropagation()">
@@ -835,9 +455,11 @@
     <script>
         // 初始化背景音乐
         const bgMusic = document.getElementById('bgMusic');
-        bgMusic.volume = 0.3;
+        bgMusic.volume = 0.3; // 30% 音量
         
+        // 尝试自动播放背景音乐
         bgMusic.play().catch(() => {
+            // 如果自动播放失败，等待用户交互后再播放
             document.addEventListener('click', () => {
                 if (bgMusic.paused) {
                     bgMusic.play();
@@ -845,69 +467,35 @@
             }, { once: true });
         });
 
-        // 检测屏幕尺寸并设置相应的背景
-        function setupBackground() {
-            const isMobile = window.innerWidth <= 768;
-            const body = document.body;
-            
-            if (isMobile) {
-                body.classList.remove('pc-view', 'mirror-view');
-                body.classList.add('mobile-view');
-            } else {
-                body.classList.remove('mobile-view', 'mirror-view');
-                body.classList.add('pc-view');
-            }
-        }
-
-        // PC端 Banner 随机切换
-        function setupBanner() {
-            const bannerImages = [
-                './Assets/pc_1.jpg',
-                './Assets/pc_2.png',
-                './Assets/pc_3.jpg'
-            ];
-            const randomBanner = bannerImages[Math.floor(Math.random() * bannerImages.length)];
-            const bannerImg = document.getElementById('bannerImg');
-            if (bannerImg) {
-                bannerImg.src = randomBanner;
-            }
-        }
-
         // 打字机效果
-        function initTypewriter(elementId) {
-            const phrases = ['Every day is a new day', '每一天都是新的一天'];
-            let phraseIndex = 0;
-            let charIndex = 0;
-            let isDeleting = false;
-            const typewriterElement = document.getElementById(elementId);
-            
-            if (!typewriterElement) return;
+        const phrases = ['Every day is a new day', '每一天都是新的一天'];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typewriterElement = document.getElementById('typewriter');
 
-            function type() {
-                const currentPhrase = phrases[phraseIndex];
-                if (isDeleting) {
-                    typewriterElement.textContent = currentPhrase.substring(0, charIndex - 1);
-                    charIndex--;
-                } else {
-                    typewriterElement.textContent = currentPhrase.substring(0, charIndex + 1);
-                    charIndex++;
-                }
-
-                let typeSpeed = isDeleting ? 50 : 150;
-
-                if (!isDeleting && charIndex === currentPhrase.length) {
-                    isDeleting = true;
-                    typeSpeed = 2000;
-                } else if (isDeleting && charIndex === 0) {
-                    isDeleting = false;
-                    phraseIndex = (phraseIndex + 1) % phrases.length;
-                    typeSpeed = 500;
-                }
-
-                setTimeout(type, typeSpeed);
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            if (isDeleting) {
+                typewriterElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typewriterElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
             }
-            
-            type();
+
+            let typeSpeed = isDeleting ? 50 : 150;
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                typeSpeed = 2000;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(type, typeSpeed);
         }
 
         // 标题切换
@@ -916,11 +504,11 @@
         const returnTitle = '(ฅ>ω<*ฅ) 诶嘿嘿，你回来啦！';
         let hasLeft = false;
 
-        document.addEventListener('click', (e) => {
-            if (e.target.closest('.external-link')) {
+        document.querySelectorAll('.external-link').forEach(link => {
+            link.addEventListener('click', () => {
                 document.title = leaveTitle;
                 hasLeft = true;
-            }
+            });
         });
 
         window.addEventListener('focus', () => {
@@ -950,7 +538,7 @@
 
         // 彩屑效果
         document.addEventListener('click', (e) => {
-            if (e.target.closest('.icon-btn') || e.target.closest('.mirror-btn') || e.target.closest('.modal') || e.target.closest('.mirror-box')) return;
+            if (e.target.closest('.icon-btn') || e.target.closest('.modal')) return;
             
             const colors = ['#FF34FF', '#39c5bb', '#C5E3EE', '#FFD700', '#FF4500'];
             for (let i = 0; i < 12; i++) {
@@ -991,261 +579,7 @@
             requestAnimationFrame(update);
         }
 
-        // 镜子盒子交互
-        let mirrorClickCount = 0;
-        const mirrorBox = document.getElementById('mirrorBox');
-        const mirrorBoxText = document.getElementById('mirrorBoxText');
-        const mirrorTexts = ['这是镜子', 'huh?', '真的什么都没有哦'];
-
-        if (mirrorBox) {
-            mirrorBox.addEventListener('click', () => {
-                mirrorClickCount++;
-                const nextText = mirrorTexts[mirrorClickCount % mirrorTexts.length];
-                
-                // 文字向下移动并渐隐
-                mirrorBoxText.style.opacity = '0';
-                mirrorBoxText.style.transform = 'translateY(20px)';
-                mirrorBoxText.style.transition = 'all 1s ease-out';
-                
-                setTimeout(() => {
-                    mirrorBoxText.textContent = nextText;
-                    mirrorBoxText.style.opacity = '1';
-                    mirrorBoxText.style.transform = 'translateY(0)';
-                }, 500);
-
-                // 第三次点击触发便利贴彩蛋
-                if (mirrorClickCount === 3) {
-                    triggerStickyNoteEgg();
-                }
-            });
-        }
-
-        // 便利贴彩蛋
-        function triggerStickyNoteEgg() {
-            const stickyNote = document.getElementById('stickyNote');
-            const string = document.getElementById('string');
-            
-            // 显示绳子和便利贴
-            string.style.display = 'block';
-            stickyNote.style.display = 'block';
-            
-            // 初始位置：从屏幕右边 35% 处降下
-            const startX = window.innerWidth * 0.65;
-            const endY = window.innerHeight * 0.63;
-            
-            stickyNote.style.left = (startX - 47) + 'px';
-            stickyNote.style.top = '-109px';
-            
-            string.style.left = startX + 'px';
-            string.style.top = '0';
-            string.style.height = '0px';
-            
-            // 动画：绳子和便利贴降下
-            let currentY = -109;
-            const dropInterval = setInterval(() => {
-                currentY += 5;
-                stickyNote.style.top = currentY + 'px';
-                string.style.height = (currentY + 109) + 'px';
-                
-                if (currentY >= endY - 109) {
-                    clearInterval(dropInterval);
-                    setupStickyNoteDrag();
-                    // 添加微小摆动效果
-                    addSwingEffect();
-                }
-            }, 20);
-        }
-
-        // 添加摆动效果
-        function addSwingEffect() {
-            const stickyNote = document.getElementById('stickyNote');
-            const string = document.getElementById('string');
-            let swingAngle = 0;
-            let swingDirection = 1;
-            const maxSwingAngle = 3; // 最大摆动角度（度数）
-            const swingSpeed = 0.1;
-
-            const swingInterval = setInterval(() => {
-                swingAngle += swingDirection * swingSpeed;
-                
-                if (Math.abs(swingAngle) > maxSwingAngle) {
-                    swingDirection *= -1;
-                }
-                
-                // 应用旋转变换
-                const radians = (swingAngle * Math.PI) / 180;
-                const offsetX = Math.sin(radians) * 10;
-                
-                stickyNote.style.transform = `rotate(${swingAngle}deg) translateX(${offsetX}px)`;
-                string.style.transform = `rotate(${swingAngle * 0.5}deg)`;
-            }, 30);
-
-            // 保存 interval ID 以便后续清除
-            stickyNote.swingInterval = swingInterval;
-        }
-
-        // 便利贴拖拽
-        function setupStickyNoteDrag() {
-            const stickyNote = document.getElementById('stickyNote');
-            let isDragging = false;
-            let dragStartY = 0;
-            let dragDistance = 0;
-            let dragStartTime = 0;
-
-            stickyNote.addEventListener('mousedown', (e) => {
-                isDragging = true;
-                dragStartY = e.clientY;
-                dragStartTime = Date.now();
-                dragDistance = 0;
-                
-                // 停止摆动
-                if (stickyNote.swingInterval) {
-                    clearInterval(stickyNote.swingInterval);
-                }
-            });
-
-            document.addEventListener('mousemove', (e) => {
-                if (!isDragging) return;
-                dragDistance = e.clientY - dragStartY;
-                const newTop = parseInt(stickyNote.style.top) + dragDistance;
-                stickyNote.style.top = newTop + 'px';
-                document.getElementById('string').style.height = (newTop + 109) + 'px';
-                dragStartY = e.clientY;
-            });
-
-            document.addEventListener('mouseup', () => {
-                if (!isDragging) return;
-                isDragging = false;
-                
-                const dragDuration = Date.now() - dragStartTime;
-                
-                // 如果拖拽超过0.6s或点击便利贴，触发上升效果
-                if (dragDuration >= 600 || dragDistance > 0) {
-                    triggerMirrorTransition();
-                }
-            });
-
-            stickyNote.addEventListener('click', () => {
-                triggerMirrorTransition();
-            });
-        }
-
-        // 镜子转场效果
-        function triggerMirrorTransition() {
-            const stickyNote = document.getElementById('stickyNote');
-            const string = document.getElementById('string');
-            const curtainLeft = document.querySelector('.curtain-left');
-            const curtainRight = document.querySelector('.curtain-right');
-            const gasterAudio = new Audio('./Assets/Gaster.m4a');
-            
-            // 停止摆动
-            if (stickyNote.swingInterval) {
-                clearInterval(stickyNote.swingInterval);
-            }
-            
-            // 播放音乐
-            gasterAudio.play();
-            
-            // 便利贴和绳子上升渐隐
-            stickyNote.style.transition = 'all 1s ease-out';
-            string.style.transition = 'all 1s ease-out';
-            stickyNote.style.opacity = '0';
-            stickyNote.style.top = '-200px';
-            string.style.opacity = '0';
-            
-            // 页面内容渐隐
-            const pcWrapper = document.getElementById('pcWrapper');
-            if (pcWrapper) {
-                pcWrapper.style.transition = 'opacity 1s ease-out';
-                pcWrapper.style.opacity = '0';
-            }
-            
-            // 黑色幕布转场
-            setTimeout(() => {
-                curtainLeft.style.display = 'block';
-                curtainRight.style.display = 'block';
-                curtainLeft.style.transition = 'left 3s ease-in-out';
-                curtainRight.style.transition = 'right 3s ease-in-out';
-                curtainLeft.style.left = '0';
-                curtainRight.style.right = '0';
-                
-                // 3s后幕布退散，显示镜子页面
-                setTimeout(() => {
-                    document.getElementById('mobileContainer').style.display = 'none';
-                    if (pcWrapper) pcWrapper.style.display = 'none';
-                    document.getElementById('mirrorContainer').style.display = 'flex';
-                    document.body.classList.remove('pc-view', 'mobile-view');
-                    document.body.classList.add('mirror-view');
-                    
-                    // 加载一言内容
-                    loadHitokoto();
-                    
-                    // 设置镜子页面背景
-                    setupMirrorBackground();
-                    
-                    // 幕布退散
-                    curtainLeft.style.left = '-100%';
-                    curtainRight.style.right = '-100%';
-                    
-                    setTimeout(() => {
-                        curtainLeft.style.display = 'none';
-                        curtainRight.style.display = 'none';
-                    }, 3000);
-                }, 3000);
-            }, 1000);
-        }
-
-        // 加载一言内容
-        function loadHitokoto() {
-            fetch('https://v1.hitokoto.cn')
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('hitokotoText').textContent = data.hitokoto;
-                    document.getElementById('hitokotoFrom').textContent = `— ${data.from}`;
-                })
-                .catch(error => {
-                    console.error('Failed to load hitokoto:', error);
-                    document.getElementById('hitokotoText').textContent = 'Every day is a new day';
-                    document.getElementById('hitokotoFrom').textContent = '— JiaBeluga';
-                });
-        }
-
-        // 设置镜子页面背景
-        function setupMirrorBackground() {
-            const isMobile = window.innerWidth <= 768;
-            const body = document.body;
-            
-            if (isMobile) {
-                const mobileWallpapers = [
-                    './Assets/mirror_wallpaper.jpg',
-                    './Assets/mirror_wallpaper_1.jpg',
-                    './Assets/mirror_wallpaper_2.jpg'
-                ];
-                const randomMobileWallpaper = mobileWallpapers[Math.floor(Math.random() * mobileWallpapers.length)];
-                body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${randomMobileWallpaper}')`;
-            } else {
-                const pcWallpapers = [
-                    './Assets/mirror_wallpaper_pc.jpg',
-                    './Assets/mirror_wallpaper_pc_1.jpg',
-                    './Assets/mirror_wallpaper_pc_2.jpg'
-                ];
-                const randomPCWallpaper = pcWallpapers[Math.floor(Math.random() * pcWallpapers.length)];
-                body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${randomPCWallpaper}')`;
-            }
-            
-            // 背景渐入
-            body.style.transition = 'background-image 1s ease-in';
-        }
-
-        // 初始化
-        window.addEventListener('load', () => {
-            setupBackground();
-            setupBanner();
-            initTypewriter('typewriter');
-            initTypewriter('typewriter-pc');
-        });
-
-        window.addEventListener('resize', setupBackground);
+        window.onload = type;
     </script>
 </body>
 </html>
