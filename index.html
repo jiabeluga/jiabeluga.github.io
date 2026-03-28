@@ -41,7 +41,6 @@
             color: var(--text-color);
             line-height: 1.6;
             overflow-x: hidden;
-            transition: background-image 1s ease-in-out;
         }
 
         /* 移动端样式 */
@@ -56,11 +55,11 @@
 
         /* PC端样式 */
         body.pc-view {
-            background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('./Assets/pc_wallpaper.jpg') center/cover fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('./Assets/pc_wallpaper.jpg') center/cover fixed;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             min-height: 100vh;
         }
 
@@ -91,13 +90,58 @@
         }
 
         /* PC端容器 */
+        .pc-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .pc-banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 300px;
+            border-radius: var(--radius);
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .pc-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--radius);
+        }
+
+        .typewriter-container {
+            position: absolute;
+            z-index: 2;
+            text-align: center;
+            width: 90%;
+            pointer-events: none;
+        }
+
+        #typewriter, #typewriter-pc {
+            color: #FF34FF;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            min-height: 1.5em;
+        }
+
         .pc-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
+            gap: 20px;
             max-width: 1200px;
             width: 100%;
-            padding: 40px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
 
         .pc-left {
@@ -121,44 +165,6 @@
             width: 100%;
             transition: transform 0.2s;
             backdrop-filter: blur(10px);
-        }
-
-        /* 顶部视频卡片 */
-        .video-card {
-            padding: 0;
-            overflow: hidden;
-            aspect-ratio: 1 / 1;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: none;
-            border: none;
-            box-shadow: none;
-            border-radius: var(--radius);
-        }
-
-        .video-card video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: var(--radius);
-        }
-
-        .typewriter-container {
-            position: absolute;
-            z-index: 2;
-            text-align: center;
-            width: 90%;
-            pointer-events: none;
-        }
-
-        #typewriter {
-            color: #FF34FF;
-            font-weight: bold;
-            font-size: 1.2rem;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-            min-height: 1.5em;
         }
 
         /* 个人信息卡片 */
@@ -505,7 +511,7 @@
         .string {
             position: fixed;
             width: 2px;
-            background-color: #FFA2F3FF;
+            background-color: #FFD1F8FF;
             z-index: 998;
             display: none;
             transform-origin: top;
@@ -541,6 +547,9 @@
             .mobile-container {
                 display: flex;
             }
+            .pc-wrapper {
+                display: none;
+            }
             .pc-container {
                 display: none;
             }
@@ -552,6 +561,9 @@
         @media (min-width: 769px) {
             .mobile-container {
                 display: none;
+            }
+            .pc-wrapper {
+                display: flex;
             }
             .pc-container {
                 display: grid;
@@ -694,87 +706,90 @@
     </div>
 
     <!-- PC端容器 -->
-    <div class="pc-container" id="pcContainer">
-        <div class="pc-left">
-            <!-- 顶部视频 -->
-            <div class="card video-card">
-                <video src="./Assets/welcome.mp4" autoplay loop muted playsinline></video>
-                <div class="typewriter-container">
-                    <div id="typewriter-pc"></div>
-                </div>
-            </div>
-
-            <!-- 关于 & 技能 -->
-            <div class="card">
-                <h2 class="miku-title handwritten">关于 Beluga</h2>
-                <div class="about-text">
-                    " 我不好！这里不是Beluga！是目前不想上学的☝✌💧❄☜☼ "
-                    " 由于想法非常奇怪猎奇，所以说看到我说了发了任何奇奇怪怪的东西，绝对(不)是我干的( "
-                    " 喜欢的事数不清，最喜欢的就是审判![开终结眼] "
-                    " 目前可以属于某个组织 "
-                    " 骚扰请来QQ/Telegram/发邮件(这对吗) "
-                </div>
+    <div class="pc-wrapper" id="pcWrapper">
+        <!-- 顶部 Banner -->
+        <div class="pc-banner" id="pcBanner">
+            <img id="bannerImg" src="./Assets/pc_1.jpg" alt="Banner">
+            <div class="typewriter-container">
+                <div id="typewriter-pc"></div>
             </div>
         </div>
 
-        <div class="pc-right">
-            <!-- 个人资料 -->
-            <div class="card profile-card">
-                <img src="./Assets/head_portrait.jpg" alt="Avatar" class="avatar">
-                <div class="name">JiaBeluga</div>
-                <div class="signature">𝑯𝒂𝒕𝒔𝒖𝒏𝒆 𝑴𝒊𝒌𝒖</div>
-                <div class="btn-group">
-                    <a href="https://b23.tv/vmMJNKW" class="icon-btn bilibili-btn external-link" target="_blank" title="Bilibili" style="background-image: url('./Assets/Bilibili.png'); background-size: 65%; background-color: transparent;"></a>
-                    <a href="https://github.com/jiabeluga" class="icon-btn github-btn external-link" target="_blank" title="GitHub">
-                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                        </svg>
-                    </a>
-                    <button class="icon-btn email-btn" onclick="showEmail()" title="联系邮箱">
-                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
-                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                        </svg>
-                    </button>
+        <!-- 主容器 -->
+        <div class="pc-container">
+            <div class="pc-left">
+                <!-- 个人资料 -->
+                <div class="card profile-card">
+                    <img src="./Assets/head_portrait.jpg" alt="Avatar" class="avatar">
+                    <div class="name">JiaBeluga</div>
+                    <div class="signature">𝑯𝒂𝒕𝒔𝒖𝒏𝒆 𝑴𝒊𝒌𝒖</div>
+                    <div class="btn-group">
+                        <a href="https://b23.tv/vmMJNKW" class="icon-btn bilibili-btn external-link" target="_blank" title="Bilibili" style="background-image: url('./Assets/Bilibili.png'); background-size: 65%; background-color: transparent;"></a>
+                        <a href="https://github.com/jiabeluga" class="icon-btn github-btn external-link" target="_blank" title="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <button class="icon-btn email-btn" onclick="showEmail()" title="联系邮箱">
+                            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 30px; height: 30px;">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 公告 -->
+                <div class="card">
+                    <div class="section-title">📅 公告</div>
+                    <p>以后只有周末可以活跃了</p>
                 </div>
             </div>
 
-            <!-- 公告 -->
-            <div class="card">
-                <div class="section-title">📅 公告</div>
-                <p>以后只有周末可以活跃了</p>
-            </div>
-
-            <!-- 社交媒体 -->
-            <div class="card">
-                <div class="section-title">📁 社交媒体</div>
-                <ul class="social-list">
-                    <li>· <a href="https://x.com/Ms_Luo_Mr_huang?s=09" class="external-link" target="_blank">Twitter</a></li>
-                    <li>· <a href="https://t.me/AllAUAndInksans" class="external-link" target="_blank">Telegram</a></li>
-                    <li>· <span style="color: #b8860b; font-weight: 500;">QQ</span> 2669604540</li>
-                    <li>· <span style="color: #b8860b; font-weight: 500;">Roblox</span> usrname: bulega39 or GlitchZapTurbo_YT</li>
-                </ul>
-            </div>
-
-            <!-- 站点信息 -->
-            <div class="card">
-                <div class="section-title">📈 站点信息</div>
-                <div class="status-item">
-                    <span>运行状态</span>
-                    <span>❌ 濒死</span>
+            <div class="pc-right">
+                <!-- 社交媒体 -->
+                <div class="card">
+                    <div class="section-title">📁 社交媒体</div>
+                    <ul class="social-list">
+                        <li>· <a href="https://x.com/Ms_Luo_Mr_huang?s=09" class="external-link" target="_blank">Twitter</a></li>
+                        <li>· <a href="https://t.me/AllAUAndInksans" class="external-link" target="_blank">Telegram</a></li>
+                        <li>· <span style="color: #b8860b; font-weight: 500;">QQ</span> 2669604540</li>
+                        <li>· <span style="color: #b8860b; font-weight: 500;">Roblox</span> usrname: bulega39 or GlitchZapTurbo_YT</li>
+                    </ul>
                 </div>
-                <div class="status-item">
-                    <span>站长状态</span>
-                    <span>❌ 濒死</span>
-                </div>
-                <div class="status-item">
-                    <span>服务运行状态</span>
-                    <span>🟢 可能活着?</span>
-                </div>
-            </div>
 
-            <!-- 镜子盒子 -->
-            <div class="mirror-box" id="mirrorBox">
-                <div class="mirror-box-text" id="mirrorBoxText">这是镜子</div>
+                <!-- 站点信息 -->
+                <div class="card">
+                    <div class="section-title">📈 站点信息</div>
+                    <div class="status-item">
+                        <span>运行状态</span>
+                        <span>❌ 濒死</span>
+                    </div>
+                    <div class="status-item">
+                        <span>站长状态</span>
+                        <span>❌ 濒死</span>
+                    </div>
+                    <div class="status-item">
+                        <span>服务运行状态</span>
+                        <span>🟢 可能活着?</span>
+                    </div>
+                </div>
+
+                <!-- 关于 & 技能 -->
+                <div class="card">
+                    <h2 class="miku-title handwritten">关于 Beluga</h2>
+                    <div class="about-text">
+                        " 我不好！这里不是Beluga！是目前不想上学的☝✌💧❄☜☼ "
+                        " 由于想法非常奇怪猎奇，所以说看到我说了发了任何奇奇怪怪的东西，绝对(不)是我干的( "
+                        " 喜欢的事数不清，最喜欢的就是审判![开终结眼] "
+                        " 目前可以属于某个组织 "
+                        " 骚扰请来QQ/Telegram/发邮件(这对吗) "
+                    </div>
+                </div>
+
+                <!-- 镜子盒子 -->
+                <div class="mirror-box" id="mirrorBox">
+                    <div class="mirror-box-text" id="mirrorBoxText">这是镜子</div>
+                </div>
             </div>
         </div>
     </div>
@@ -838,27 +853,23 @@
             if (isMobile) {
                 body.classList.remove('pc-view', 'mirror-view');
                 body.classList.add('mobile-view');
-                
-                // 随机选择移动端背景
-                const mobileWallpapers = [
-                    './Assets/mirror_wallpaper.jpg',
-                    './Assets/mirror_wallpaper_1.jpg',
-                    './Assets/mirror_wallpaper_2.jpg'
-                ];
-                const randomMobileWallpaper = mobileWallpapers[Math.floor(Math.random() * mobileWallpapers.length)];
-                body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('${randomMobileWallpaper}')`;
             } else {
-                body.classList.remove('mobile-view');
+                body.classList.remove('mobile-view', 'mirror-view');
                 body.classList.add('pc-view');
-                
-                // 随机选择PC端背景
-                const pcWallpapers = [
-                    './Assets/mirror_wallpaper_pc.jpg',
-                    './Assets/mirror_wallpaper_pc_1.jpg',
-                    './Assets/mirror_wallpaper_pc_2.jpg'
-                ];
-                const randomPCWallpaper = pcWallpapers[Math.floor(Math.random() * pcWallpapers.length)];
-                body.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('${randomPCWallpaper}')`;
+            }
+        }
+
+        // PC端 Banner 随机切换
+        function setupBanner() {
+            const bannerImages = [
+                './Assets/pc_1.jpg',
+                './Assets/pc_2.png',
+                './Assets/pc_3.jpg'
+            ];
+            const randomBanner = bannerImages[Math.floor(Math.random() * bannerImages.length)];
+            const bannerImg = document.getElementById('bannerImg');
+            if (bannerImg) {
+                bannerImg.src = randomBanner;
             }
         }
 
@@ -986,33 +997,33 @@
         const mirrorBoxText = document.getElementById('mirrorBoxText');
         const mirrorTexts = ['这是镜子', 'huh?', '真的什么都没有哦'];
 
-        mirrorBox.addEventListener('click', () => {
-            mirrorClickCount++;
-            const nextText = mirrorTexts[mirrorClickCount % mirrorTexts.length];
-            
-            // 文字向下移动并渐隐
-            mirrorBoxText.style.opacity = '0';
-            mirrorBoxText.style.transform = 'translateY(20px)';
-            mirrorBoxText.style.transition = 'all 1s ease-out';
-            
-            setTimeout(() => {
-                mirrorBoxText.textContent = nextText;
-                mirrorBoxText.style.opacity = '1';
-                mirrorBoxText.style.transform = 'translateY(0)';
-            }, 500);
+        if (mirrorBox) {
+            mirrorBox.addEventListener('click', () => {
+                mirrorClickCount++;
+                const nextText = mirrorTexts[mirrorClickCount % mirrorTexts.length];
+                
+                // 文字向下移动并渐隐
+                mirrorBoxText.style.opacity = '0';
+                mirrorBoxText.style.transform = 'translateY(20px)';
+                mirrorBoxText.style.transition = 'all 1s ease-out';
+                
+                setTimeout(() => {
+                    mirrorBoxText.textContent = nextText;
+                    mirrorBoxText.style.opacity = '1';
+                    mirrorBoxText.style.transform = 'translateY(0)';
+                }, 500);
 
-            // 第三次点击触发便利贴彩蛋
-            if (mirrorClickCount === 3) {
-                triggerStickyNoteEgg();
-            }
-        });
+                // 第三次点击触发便利贴彩蛋
+                if (mirrorClickCount === 3) {
+                    triggerStickyNoteEgg();
+                }
+            });
+        }
 
         // 便利贴彩蛋
         function triggerStickyNoteEgg() {
             const stickyNote = document.getElementById('stickyNote');
             const string = document.getElementById('string');
-            const curtainLeft = document.querySelector('.curtain-left');
-            const curtainRight = document.querySelector('.curtain-right');
             
             // 显示绳子和便利贴
             string.style.display = 'block';
@@ -1027,7 +1038,7 @@
             
             string.style.left = startX + 'px';
             string.style.top = '0';
-            string.style.height = endY + 'px';
+            string.style.height = '0px';
             
             // 动画：绳子和便利贴降下
             let currentY = -109;
@@ -1039,8 +1050,38 @@
                 if (currentY >= endY - 109) {
                     clearInterval(dropInterval);
                     setupStickyNoteDrag();
+                    // 添加微小摆动效果
+                    addSwingEffect();
                 }
             }, 20);
+        }
+
+        // 添加摆动效果
+        function addSwingEffect() {
+            const stickyNote = document.getElementById('stickyNote');
+            const string = document.getElementById('string');
+            let swingAngle = 0;
+            let swingDirection = 1;
+            const maxSwingAngle = 3; // 最大摆动角度（度数）
+            const swingSpeed = 0.1;
+
+            const swingInterval = setInterval(() => {
+                swingAngle += swingDirection * swingSpeed;
+                
+                if (Math.abs(swingAngle) > maxSwingAngle) {
+                    swingDirection *= -1;
+                }
+                
+                // 应用旋转变换
+                const radians = (swingAngle * Math.PI) / 180;
+                const offsetX = Math.sin(radians) * 10;
+                
+                stickyNote.style.transform = `rotate(${swingAngle}deg) translateX(${offsetX}px)`;
+                string.style.transform = `rotate(${swingAngle * 0.5}deg)`;
+            }, 30);
+
+            // 保存 interval ID 以便后续清除
+            stickyNote.swingInterval = swingInterval;
         }
 
         // 便利贴拖拽
@@ -1056,12 +1097,19 @@
                 dragStartY = e.clientY;
                 dragStartTime = Date.now();
                 dragDistance = 0;
+                
+                // 停止摆动
+                if (stickyNote.swingInterval) {
+                    clearInterval(stickyNote.swingInterval);
+                }
             });
 
             document.addEventListener('mousemove', (e) => {
                 if (!isDragging) return;
                 dragDistance = e.clientY - dragStartY;
-                stickyNote.style.top = (parseInt(stickyNote.style.top) + dragDistance) + 'px';
+                const newTop = parseInt(stickyNote.style.top) + dragDistance;
+                stickyNote.style.top = newTop + 'px';
+                document.getElementById('string').style.height = (newTop + 109) + 'px';
                 dragStartY = e.clientY;
             });
 
@@ -1090,6 +1138,11 @@
             const curtainRight = document.querySelector('.curtain-right');
             const gasterAudio = new Audio('./Assets/Gaster.m4a');
             
+            // 停止摆动
+            if (stickyNote.swingInterval) {
+                clearInterval(stickyNote.swingInterval);
+            }
+            
             // 播放音乐
             gasterAudio.play();
             
@@ -1101,8 +1154,11 @@
             string.style.opacity = '0';
             
             // 页面内容渐隐
-            document.getElementById('pcContainer').style.transition = 'opacity 1s ease-out';
-            document.getElementById('pcContainer').style.opacity = '0';
+            const pcWrapper = document.getElementById('pcWrapper');
+            if (pcWrapper) {
+                pcWrapper.style.transition = 'opacity 1s ease-out';
+                pcWrapper.style.opacity = '0';
+            }
             
             // 黑色幕布转场
             setTimeout(() => {
@@ -1115,8 +1171,8 @@
                 
                 // 3s后幕布退散，显示镜子页面
                 setTimeout(() => {
-                    document.getElementById('pcContainer').style.display = 'none';
                     document.getElementById('mobileContainer').style.display = 'none';
+                    if (pcWrapper) pcWrapper.style.display = 'none';
                     document.getElementById('mirrorContainer').style.display = 'flex';
                     document.body.classList.remove('pc-view', 'mobile-view');
                     document.body.classList.add('mirror-view');
@@ -1184,6 +1240,7 @@
         // 初始化
         window.addEventListener('load', () => {
             setupBackground();
+            setupBanner();
             initTypewriter('typewriter');
             initTypewriter('typewriter-pc');
         });
